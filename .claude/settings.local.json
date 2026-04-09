@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Skill(schedule)"
+      "Skill(schedule)",
+      "Bash(claude --version)",
+      "Read(//Users/rylanibach/Library/LaunchAgents/**)",
+      "Bash(chmod +x ~/web-agency/ops/scripts/daily-all-hands.sh)"
     ]
   }
 }
