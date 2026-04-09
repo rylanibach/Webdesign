@@ -18,9 +18,9 @@ Checked = approved. Add `SKIP` or `NOTES: ...` inline if not approving.
 ## Gate 1 — Lead Approvals
 _Emily adds leads here after scoring. Owner decides: pursue or skip._
 
-- [ ] GATE 1 | Jimenez Landscaping | Phoenix landscaping co — no website at all, only unclaimed Yelp listing. Pursue? | leads/pipeline.md
-- [ ] GATE 1 | Phoenix Pavers | Phoenix paver contractor — 47 photos & 20 reviews on Yelp but no website, unclaimed listing. Pursue? | leads/pipeline.md
-- [ ] GATE 1 | Kargo Mobile Mechanics | Phoenix mobile mechanic — running on free Netlify subdomain (no custom domain, no branding). Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Jimenez Landscaping | Phoenix landscaping co — no website at all, only unclaimed Yelp listing. Pursue? | leads/pipeline.md. Approved
+- [ ] GATE 1 | Phoenix Pavers | Phoenix paver contractor — 47 photos & 20 reviews on Yelp but no website, unclaimed listing. Pursue? | leads/pipeline.md. Approved
+- [ ] GATE 1 | Kargo Mobile Mechanics | Phoenix mobile mechanic — running on free Netlify subdomain (no custom domain, no branding). Pursue? | leads/pipeline.md. Approved
 
 <!-- Emily appends here -->
 
