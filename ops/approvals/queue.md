@@ -22,9 +22,9 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 - [X] GATE 1 | Phoenix Pavers | Phoenix paver contractor — 47 photos & 20 reviews on Yelp but no website, unclaimed listing. Pursue? | leads/pipeline.md. 
 - [X] GATE 1 | Kargo Mobile Mechanics | Phoenix mobile mechanic — running on free Netlify subdomain (no custom domain, no branding). Pursue? | leads/pipeline.md. 
 
-- [ ] GATE 1 | Cardinals Fencing | Phoenix fencing contractor — Yelp-only presence, no website found. Pursue? | leads/pipeline.md
-- [ ] GATE 1 | Nikki's Mobile Grooming | Phoenix mobile pet groomer — no website, Yelp listing with phone only. Pursue? | leads/pipeline.md
-- [ ] GATE 1 | Midwest Concrete | Glendale concrete/masonry — family-owned 35+ yrs, Yelp-only, no website. Pursue? | leads/pipeline.md
+- [X] GATE 1 | Cardinals Fencing | Phoenix fencing contractor — Yelp-only presence, no website found. Pursue? | leads/pipeline.md
+- [X] GATE 1 | Nikki's Mobile Grooming | Phoenix mobile pet groomer — no website, Yelp listing with phone only. Pursue? | leads/pipeline.md
+- [X] GATE 1 | Midwest Concrete | Glendale concrete/masonry — family-owned 35+ yrs, Yelp-only, no website. Pursue? | leads/pipeline.md
 
 <!-- Emily appends here -->
 
@@ -33,11 +33,11 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 ## Gate 2 — Outreach Approvals
 _Emily adds email drafts here. Owner approves before send. Follow-ups also queue here._
 
-- [ ] GATE 2 | Jimenez Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/jimenez-landscaping-2026-04-10.md
-- [ ] GATE 2 | Escalona Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/escalona-landscaping-2026-04-10.md
-- [ ] GATE 2 | Osvaldo's Landscaping Service | Outreach email draft — review, then send from personal Gmail | leads/outreach/osvaldos-landscaping-2026-04-10.md
-- [ ] GATE 2 | Phoenix Pavers | Outreach email draft — review, then send from personal Gmail | leads/outreach/phoenix-pavers-2026-04-10.md
-- [ ] GATE 2 | Kargo Mobile Mechanics | Outreach email draft — review, then send from personal Gmail | leads/outreach/kargo-mobile-mechanics-2026-04-10.md
+- [X] GATE 2 | Jimenez Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/jimenez-landscaping-2026-04-10.md
+- [X] GATE 2 | Escalona Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/escalona-landscaping-2026-04-10.md
+- [X] GATE 2 | Osvaldo's Landscaping Service | Outreach email draft — review, then send from personal Gmail | leads/outreach/osvaldos-landscaping-2026-04-10.md
+- [X] GATE 2 | Phoenix Pavers | Outreach email draft — review, then send from personal Gmail | leads/outreach/phoenix-pavers-2026-04-10.md
+- [X] GATE 2 | Kargo Mobile Mechanics | Outreach email draft — review, then send from personal Gmail | leads/outreach/kargo-mobile-mechanics-2026-04-10.md
 
 <!-- Emily appends here -->
 
