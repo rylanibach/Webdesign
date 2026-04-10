@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Sonoran Green Landscape Co. — Phoenix's Premier Landscape Design</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html{scroll-behavior:smooth}
+  body{font-family:ui-sans-serif,system-ui,sans-serif}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+  .fade-up{animation:fadeUp .9s ease-out both}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  .float{animation:float 4s ease-in-out infinite}
+  .hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .filter-btn.active{background:#047857;color:#fff}
+  .carousel{scroll-snap-type:x mandatory;scroll-behavior:smooth}
+  .carousel>*{scroll-snap-align:center}
+</style>
+</head>
+<body class="bg-white text-stone-800">
+
+<header class="fixed top-0 left-0 right-0 z-40 bg-white/80 backdrop-blur border-b border-stone-200">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#" class="font-bold text-lg text-emerald-800">Sonoran Green <span class="text-stone-500 font-normal">Landscape Co.</span></a>
+    <nav class="hidden lg:flex gap-8 text-sm">
+      <a href="#services" class="hover:text-emerald-700">Services</a>
+      <a href="#portfolio" class="hover:text-emerald-700">Portfolio</a>
+      <a href="#calculator" class="hover:text-emerald-700">Pricing</a>
+      <a href="#reviews" class="hover:text-emerald-700">Reviews</a>
+      <a href="#blog" class="hover:text-emerald-700">Blog</a>
+      <a href="#book" class="hover:text-emerald-700">Book</a>
+    </nav>
+    <a href="#book" class="bg-emerald-700 text-white text-sm px-5 py-2 rounded-full hover:bg-emerald-800">Book consultation</a>
+  </div>
+</header>
+
+<!-- Hero with video -->
+<section class="relative h-screen overflow-hidden">
+  <video class="hero-video" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1600&q=80">
+    <source src="https://cdn.pixabay.com/video/2020/09/08/49376-457949998_large.mp4" type="video/mp4">
+  </video>
+  <div class="absolute inset-0 bg-gradient-to-br from-emerald-950/85 via-stone-900/60 to-transparent"></div>
+  <div class="relative z-10 h-full flex items-center">
+    <div class="max-w-7xl mx-auto px-6 w-full">
+      <div class="max-w-3xl text-white fade-up">
+        <p class="uppercase tracking-[0.3em] text-emerald-300 text-xs mb-4">Phoenix's premier landscape designers</p>
+        <h1 class="text-5xl md:text-7xl font-bold leading-[1.05] mb-6">Your yard, reimagined<br/><span class="text-emerald-400">for the desert.</span></h1>
+        <p class="text-xl text-stone-200 mb-8 max-w-xl">Award-winning xeriscape design, custom outdoor living, and full-service installation — all from one trusted Phoenix team.</p>
+        <div class="flex flex-wrap gap-3">
+          <a href="#book" class="bg-emerald-600 hover:bg-emerald-700 px-7 py-4 rounded-full font-semibold">Book free consultation</a>
+          <a href="#portfolio" class="border border-white/70 hover:bg-white/10 px-7 py-4 rounded-full">View portfolio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="absolute bottom-8 left-0 right-0 flex justify-center float text-white/70 text-sm">↓ scroll</div>
+</section>
+
+<!-- Stats -->
+<section class="bg-emerald-900 text-white py-14">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <div><div class="text-4xl font-bold text-emerald-300">500+</div><div class="text-sm text-emerald-100 mt-1">Projects completed</div></div>
+    <div><div class="text-4xl font-bold text-emerald-300">12</div><div class="text-sm text-emerald-100 mt-1">Years in Phoenix</div></div>
+    <div><div class="text-4xl font-bold text-emerald-300">4.9★</div><div class="text-sm text-emerald-100 mt-1">Google rating</div></div>
+    <div><div class="text-4xl font-bold text-emerald-300">50%</div><div class="text-sm text-emerald-100 mt-1">Avg. water savings</div></div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="max-w-7xl mx-auto px-6 py-24">
+  <div class="text-center mb-16">
+    <p class="uppercase tracking-widest text-emerald-700 text-xs mb-3">What we do</p>
+    <h2 class="text-5xl font-bold mb-4">End-to-end landscape services</h2>
+    <p class="text-stone-600 max-w-2xl mx-auto">From concept sketches to the final sprinkler install, we handle every phase in-house.</p>
+  </div>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="group relative rounded-2xl overflow-hidden h-80"><img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=800&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700"/><div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div><div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Xeriscape Design</h3><p class="text-sm text-stone-200">Low-water desert landscapes</p></div></div>
+    <div class="group relative rounded-2xl overflow-hidden h-80"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700"/><div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div><div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Outdoor Living</h3><p class="text-sm text-stone-200">Patios, fire pits, kitchens</p></div></div>
+    <div class="group relative rounded-2xl overflow-hidden h-80"><img src="https://images.unsplash.com/photo-1487622750296-6360190669a1?w=800&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700"/><div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div><div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Smart Irrigation</h3><p class="text-sm text-stone-200">Wi-Fi drip systems</p></div></div>
+    <div class="group relative rounded-2xl overflow-hidden h-80"><img src="https://images.unsplash.com/photo-1597764690523-15bea4c581c9?w=800&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700"/><div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div><div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Tree Care</h3><p class="text-sm text-stone-200">Certified arborist on staff</p></div></div>
+    <div class="group relative rounded-2xl overflow-hidden h-80"><img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700"/><div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div><div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Lawn & Maintenance</h3><p class="text-sm text-stone-200">Weekly, biweekly, monthly</p></div></div>
+    <div class="group relative rounded-2xl overflow-hidden h-80"><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700"/><div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div><div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Full Makeovers</h3><p class="text-sm text-stone-200">Design-build start to finish</p></div></div>
+  </div>
+</section>
+
+<!-- Portfolio with filter -->
+<section id="portfolio" class="bg-stone-100 py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="uppercase tracking-widest text-emerald-700 text-xs mb-3">Portfolio</p>
+      <h2 class="text-5xl font-bold">Featured projects</h2>
+    </div>
+    <div class="flex justify-center gap-2 mb-10 flex-wrap">
+      <button class="filter-btn active px-5 py-2 rounded-full border border-emerald-700 text-sm" data-filter="all">All</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-emerald-700 text-emerald-800 text-sm" data-filter="xeriscape">Xeriscape</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-emerald-700 text-emerald-800 text-sm" data-filter="pavers">Pavers</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-emerald-700 text-emerald-800 text-sm" data-filter="lawn">Lawn</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-emerald-700 text-emerald-800 text-sm" data-filter="trees">Trees</button>
+    </div>
+    <div id="portfolio-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="item xeriscape rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800&q=80" class="w-full h-64 object-cover"/></div>
+      <div class="item pavers rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" class="w-full h-64 object-cover"/></div>
+      <div class="item lawn rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80" class="w-full h-64 object-cover"/></div>
+      <div class="item xeriscape rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80" class="w-full h-64 object-cover"/></div>
+      <div class="item trees rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1597764690523-15bea4c581c9?w=800&q=80" class="w-full h-64 object-cover"/></div>
+      <div class="item pavers rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=800&q=80" class="w-full h-64 object-cover"/></div>
+      <div class="item lawn rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1487622750296-6360190669a1?w=800&q=80" class="w-full h-64 object-cover"/></div>
+      <div class="item xeriscape rounded-xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80" class="w-full h-64 object-cover"/></div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing calculator -->
+<section id="calculator" class="max-w-5xl mx-auto px-6 py-24">
+  <div class="text-center mb-12">
+    <p class="uppercase tracking-widest text-emerald-700 text-xs mb-3">Instant estimate</p>
+    <h2 class="text-5xl font-bold">Project calculator</h2>
+    <p class="text-stone-600 mt-3">Ballpark your project in 30 seconds.</p>
+  </div>
+  <div class="bg-stone-50 rounded-2xl border border-stone-200 p-8 grid md:grid-cols-2 gap-8">
+    <div class="space-y-5">
+      <label class="block"><span class="text-sm font-semibold">Project type</span>
+        <select id="calc-type" class="mt-2 w-full border border-stone-300 rounded-md px-3 py-3">
+          <option value="2500">Xeriscape install</option>
+          <option value="4500">Paver patio</option>
+          <option value="1500">Irrigation system</option>
+          <option value="8000">Full backyard makeover</option>
+        </select>
+      </label>
+      <label class="block"><span class="text-sm font-semibold">Yard size (sq ft): <b id="calc-size-val">500</b></span>
+        <input id="calc-size" type="range" min="100" max="3000" step="50" value="500" class="w-full mt-2"/>
+      </label>
+      <label class="flex items-center gap-2"><input id="calc-lighting" type="checkbox"/> <span class="text-sm">Add landscape lighting (+$800)</span></label>
+      <label class="flex items-center gap-2"><input id="calc-rush" type="checkbox"/> <span class="text-sm">Rush install (+15%)</span></label>
+    </div>
+    <div class="bg-emerald-900 text-white rounded-xl p-8 flex flex-col justify-between">
+      <div>
+        <div class="text-sm uppercase tracking-widest text-emerald-300">Estimated total</div>
+        <div id="calc-total" class="text-6xl font-bold mt-2">$3,750</div>
+        <div class="text-sm text-emerald-100 mt-2">Final pricing confirmed after on-site visit.</div>
+      </div>
+      <a href="#book" class="mt-6 bg-emerald-500 hover:bg-emerald-400 text-emerald-950 font-bold px-5 py-3 rounded-md text-center">Book consultation</a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial carousel -->
+<section id="reviews" class="bg-emerald-950 text-white py-24 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="uppercase tracking-widest text-emerald-400 text-xs mb-3">Reviews</p>
+      <h2 class="text-5xl font-bold">Loved across the Valley</h2>
+    </div>
+    <div class="carousel flex gap-6 overflow-x-auto pb-6">
+      <div class="min-w-[320px] md:min-w-[420px] bg-emerald-900 rounded-2xl p-8"><div class="text-amber-400 text-lg mb-3">★★★★★</div><p class="italic text-emerald-50 mb-4">"Absolutely transformed our backyard. The design team actually listened to what we wanted."</p><div class="text-sm font-semibold">— Maria G., Gilbert</div></div>
+      <div class="min-w-[320px] md:min-w-[420px] bg-emerald-900 rounded-2xl p-8"><div class="text-amber-400 text-lg mb-3">★★★★★</div><p class="italic text-emerald-50 mb-4">"Their paver work is flawless. Crew was professional, finished two days early."</p><div class="text-sm font-semibold">— Dave K., Mesa</div></div>
+      <div class="min-w-[320px] md:min-w-[420px] bg-emerald-900 rounded-2xl p-8"><div class="text-amber-400 text-lg mb-3">★★★★★</div><p class="italic text-emerald-50 mb-4">"Best landscapers in Phoenix, hands down. Water bill dropped 60%."</p><div class="text-sm font-semibold">— Jenna R., Chandler</div></div>
+      <div class="min-w-[320px] md:min-w-[420px] bg-emerald-900 rounded-2xl p-8"><div class="text-amber-400 text-lg mb-3">★★★★★</div><p class="italic text-emerald-50 mb-4">"Five stars isn't enough. Worth every penny."</p><div class="text-sm font-semibold">— Tom P., Tempe</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog preview -->
+<section id="blog" class="max-w-7xl mx-auto px-6 py-24">
+  <div class="flex justify-between items-end mb-10">
+    <div>
+      <p class="uppercase tracking-widest text-emerald-700 text-xs mb-3">From the blog</p>
+      <h2 class="text-5xl font-bold">Desert landscaping tips</h2>
+    </div>
+    <a href="#" class="text-emerald-700 hover:underline text-sm">View all posts →</a>
+  </div>
+  <div class="grid md:grid-cols-3 gap-8">
+    <article class="group"><img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800&q=80" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90"/><div class="mt-4"><div class="text-xs text-emerald-700 uppercase">Xeriscaping</div><h3 class="font-bold text-xl mt-1">5 native plants that thrive in Phoenix heat</h3><p class="text-sm text-stone-600 mt-2">The drought-tolerant stars of our go-to plant palette.</p></div></article>
+    <article class="group"><img src="https://images.unsplash.com/photo-1487622750296-6360190669a1?w=800&q=80" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90"/><div class="mt-4"><div class="text-xs text-emerald-700 uppercase">Irrigation</div><h3 class="font-bold text-xl mt-1">Smart drip systems: the ROI math</h3><p class="text-sm text-stone-600 mt-2">How a $1,200 upgrade pays itself off in 18 months.</p></div></article>
+    <article class="group"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90"/><div class="mt-4"><div class="text-xs text-emerald-700 uppercase">Pavers</div><h3 class="font-bold text-xl mt-1">Choosing pavers that survive Arizona summers</h3><p class="text-sm text-stone-600 mt-2">Material, color, and sealing tips from 12 years of installs.</p></div></article>
+  </div>
+</section>
+
+<!-- Booking form -->
+<section id="book" class="bg-stone-100 py-24">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="text-center mb-10">
+      <p class="uppercase tracking-widest text-emerald-700 text-xs mb-3">Book a consultation</p>
+      <h2 class="text-5xl font-bold">Let's design your dream yard</h2>
+      <p class="text-stone-600 mt-3">Free 45-minute on-site consultation. No obligation.</p>
+    </div>
+    <form class="bg-white p-8 rounded-2xl shadow-lg border border-stone-200 grid md:grid-cols-2 gap-4">
+      <input class="border border-stone-300 rounded-md px-4 py-3" placeholder="Full name" />
+      <input class="border border-stone-300 rounded-md px-4 py-3" placeholder="Phone" />
+      <input class="border border-stone-300 rounded-md px-4 py-3 md:col-span-2" placeholder="Email" />
+      <input class="border border-stone-300 rounded-md px-4 py-3 md:col-span-2" placeholder="Property address" />
+      <select class="border border-stone-300 rounded-md px-4 py-3"><option>Preferred day</option><option>Mon</option><option>Tue</option><option>Wed</option><option>Thu</option><option>Fri</option><option>Sat</option></select>
+      <select class="border border-stone-300 rounded-md px-4 py-3"><option>Time of day</option><option>Morning</option><option>Afternoon</option></select>
+      <textarea class="border border-stone-300 rounded-md px-4 py-3 md:col-span-2 h-28" placeholder="Tell us about your project & budget"></textarea>
+      <button type="button" class="md:col-span-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-5 py-4 rounded-full text-lg">Book my free consultation</button>
+    </form>
+  </div>
+</section>
+
+<footer class="bg-stone-950 text-stone-400 py-12">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-sm">
+    <div><div class="text-white font-bold text-lg mb-2">Sonoran Green</div><div>Desert landscaping done right. Phoenix, AZ since 2014.</div></div>
+    <div><div class="text-white font-semibold mb-2">Services</div><ul class="space-y-1"><li>Xeriscaping</li><li>Pavers</li><li>Irrigation</li><li>Tree care</li></ul></div>
+    <div><div class="text-white font-semibold mb-2">Company</div><ul class="space-y-1"><li>About</li><li>Portfolio</li><li>Blog</li><li>Careers</li></ul></div>
+    <div><div class="text-white font-semibold mb-2">Contact</div><div>(602) 555-0142<br/>hello@sonorangreen.example<br/>ROC #123456</div></div>
+  </div>
+  <div class="text-center text-xs text-stone-600 mt-10">© 2026 Sonoran Green Landscape Co. · All rights reserved</div>
+</footer>
+
+<script>
+  // Portfolio filter
+  document.querySelectorAll('.filter-btn').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const f=btn.dataset.filter;
+      document.querySelectorAll('#portfolio-grid .item').forEach(el=>{
+        el.style.display=(f==='all'||el.classList.contains(f))?'':'none';
+      });
+    });
+  });
+  // Calculator
+  const type=document.getElementById('calc-type');
+  const size=document.getElementById('calc-size');
+  const sizeVal=document.getElementById('calc-size-val');
+  const lighting=document.getElementById('calc-lighting');
+  const rush=document.getElementById('calc-rush');
+  const total=document.getElementById('calc-total');
+  function recalc(){
+    let base=parseInt(type.value);
+    let sq=parseInt(size.value);
+    sizeVal.textContent=sq;
+    let t=base+(sq*2.5);
+    if(lighting.checked)t+=800;
+    if(rush.checked)t*=1.15;
+    total.textContent='$'+Math.round(t).toLocaleString();
+  }
+  [type,size,lighting,rush].forEach(el=>el.addEventListener('input',recalc));
+  recalc();
+  // Fade-up on scroll
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('fade-up')}),{threshold:.15});
+  document.querySelectorAll('section h2').forEach(el=>io.observe(el));
+</script>
+
+</body>
+</html>
