@@ -13,3 +13,38 @@ From https://github.com/rylanibach/Webdesign
 From https://github.com/rylanibach/Webdesign
  * branch            main       -> FETCH_HEAD
 Already up to date.
+---
+
+## Daily All-Hands Summary — 2026-04-09
+
+| Metric | Value |
+|---|---|
+| **Files changed** | 11 |
+| **New leads added** | 8 (5 High, 2 Medium, 1 Low) |
+| **Gate 1 items queued** | 3 (Jimenez Landscaping, Phoenix Pavers, Kargo Mobile Mechanics) |
+| **Gate 2 outreach drafts** | 0 (no approved leads yet) |
+| **Commit hash** | `4b5e6d5` (pushed to `origin/main`) |
+
+### Blockers for owner to resolve before tomorrow
+
+1. **Review 3 Gate 1 leads in `ops/approvals/queue.md`** — reply "approve" or "skip" for each so Emily can begin drafting outreach. Until then the pipeline is stalled at the first gate.
+2. **Git identity** — git flagged that your name/email was auto-configured. Run `git config --global --edit` if you want to set it explicitly (cosmetic only, not blocking).
+
+=== Daily All-Hands run finished at Thu Apr  9 13:13:18 MST 2026 (exit 0) ===
+=== Daily All-Hands run started at Thu Apr  9 16:59:28 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+   4b5e6d5..ee123e7  main       -> origin/main
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Updating 4b5e6d5..ee123e7
+Fast-forward
+ leads/pipeline.md      | 10 +++++-----
+ ops/approvals/queue.md |  6 +++---
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+You've hit your limit · resets 6pm (America/Phoenix)
+
+=== Daily All-Hands run finished at Thu Apr  9 16:59:52 MST 2026 (exit 1) ===
+
+=== Email delivery ===
+{"id":"7a46c5c3-05ab-4dce-850d-bd2fa4807ec8"}
