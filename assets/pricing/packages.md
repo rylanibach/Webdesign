@@ -1,4 +1,4 @@
-# Web Agency — Pricing & Packages
+# Hands Off Design — Pricing & Packages
 
 _Phoenix small business web design + content services. Lean budgets, real results._
 

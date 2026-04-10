@@ -60,16 +60,16 @@ import json, sys, html as htmllib
 date_str, commit_short, commit_msg, commit_url, summary, recipient = sys.argv[1:7]
 esc = htmllib.escape(summary) if summary else "(no summary captured)"
 body_html = (
-    f"<p><strong>Web Agency Daily All-Hands — {date_str}</strong></p>"
+    f"<p><strong>Hands Off Design Daily All-Hands — {date_str}</strong></p>"
     f"<p>Commit: <a href=\"{commit_url}\">{commit_short}</a> — {htmllib.escape(commit_msg)}</p>"
     f"<pre style=\"font-family: ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre-wrap; background: #f6f8fa; padding: 12px; border-radius: 6px;\">{esc}</pre>"
     f"<p><a href=\"{commit_url}\">View full diff on GitHub →</a></p>"
 )
-body_text = f"Web Agency Daily All-Hands — {date_str}\n\nCommit: {commit_short} — {commit_msg}\n{commit_url}\n\n{summary}\n"
+body_text = f"Hands Off Design Daily All-Hands — {date_str}\n\nCommit: {commit_short} — {commit_msg}\n{commit_url}\n\n{summary}\n"
 payload = {
-    "from": "Web Agency Daily <onboarding@resend.dev>",
+    "from": "Hands Off Design Daily <onboarding@resend.dev>",
     "to": [recipient],
-    "subject": f"Web Agency Daily All-Hands — {date_str}",
+    "subject": f"Hands Off Design Daily All-Hands — {date_str}",
     "html": body_html,
     "text": body_text,
 }

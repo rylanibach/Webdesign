@@ -37,8 +37,6 @@ tailwind.config = {
   .fade-up { animation: fadeUp .8s ease-out both; }
   @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
   .float { animation: float 4s ease-in-out infinite; }
-  .carousel { scroll-snap-type: x mandatory; scroll-behavior: smooth; }
-  .carousel > * { scroll-snap-align: center; }
 </style>
 </head>
 
@@ -50,11 +48,10 @@ tailwind.config = {
     <a href="#" class="font-bold text-xl tracking-tight">Hands Off <span class="text-copper">Design</span></a>
     <nav class="hidden lg:flex gap-8 text-sm font-medium text-stone2">
       <a href="#services" class="hover:text-copper transition">Services</a>
-      <a href="#work" class="hover:text-copper transition">Work</a>
+      <a href="#examples" class="hover:text-copper transition">Examples</a>
       <a href="#pricing" class="hover:text-copper transition">Pricing</a>
-      <a href="#reviews" class="hover:text-copper transition">Reviews</a>
       <a href="#about" class="hover:text-copper transition">About</a>
-      <a href="#blog" class="hover:text-copper transition">Blog</a>
+      <a href="#contact" class="hover:text-copper transition">Contact</a>
     </nav>
     <a href="#contact" class="bg-copper hover:bg-copper-dark text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition">Get a free quote</a>
   </div>
@@ -62,7 +59,6 @@ tailwind.config = {
 
 <!-- ===================== HERO ===================== -->
 <section class="relative min-h-screen flex items-center overflow-hidden bg-midnight pt-20">
-  <!-- Video background -->
   <video class="absolute inset-0 w-full h-full object-cover opacity-30" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80">
     <source src="https://cdn.pixabay.com/video/2016/09/05/4829-182601965_large.mp4" type="video/mp4" />
   </video>
@@ -74,21 +70,11 @@ tailwind.config = {
       <p class="text-xl text-gray-300 mb-8 max-w-xl leading-relaxed">Beautiful, high-converting websites for Phoenix small businesses — built fast, priced fairly, and 100% yours. No lock-in. No mystery.</p>
       <div class="flex flex-wrap gap-4">
         <a href="#contact" class="bg-copper hover:bg-copper-dark text-white font-semibold px-8 py-4 rounded-lg text-lg transition">Get your free quote</a>
-        <a href="#work" class="border border-white/40 hover:bg-white/10 text-white px-8 py-4 rounded-lg text-lg transition">See our work</a>
+        <a href="#examples" class="border border-white/40 hover:bg-white/10 text-white px-8 py-4 rounded-lg text-lg transition">See example sites</a>
       </div>
     </div>
   </div>
   <div class="absolute bottom-10 left-0 right-0 flex justify-center float text-white/50 text-sm">scroll</div>
-</section>
-
-<!-- ===================== STATS BAR ===================== -->
-<section class="bg-copper text-white py-12">
-  <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-    <div><div class="text-4xl font-bold">50+</div><div class="text-sm mt-1 text-white/80">Sites launched</div></div>
-    <div><div class="text-4xl font-bold">4.9</div><div class="text-sm mt-1 text-white/80">Google rating</div></div>
-    <div><div class="text-4xl font-bold">2 wk</div><div class="text-sm mt-1 text-white/80">Avg. delivery</div></div>
-    <div><div class="text-4xl font-bold">100%</div><div class="text-sm mt-1 text-white/80">Client ownership</div></div>
-  </div>
 </section>
 
 <!-- ===================== SERVICES ===================== -->
@@ -159,45 +145,73 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ===================== PORTFOLIO ===================== -->
-<section id="work" class="py-24">
+<!-- ===================== EXAMPLE SITES ===================== -->
+<section id="examples" class="py-24">
   <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-12">
-      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Our work</p>
-      <h2 class="font-serif text-4xl md:text-5xl">Sites we've launched</h2>
+    <div class="text-center mb-16">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">See the difference</p>
+      <h2 class="font-serif text-4xl md:text-5xl mb-4">What each package looks like</h2>
+      <p class="text-stone2 max-w-2xl mx-auto">Click any example below to open a live, interactive demo site. These show exactly what you get at each tier — built for a sample landscaping company so you can see the features in action.</p>
     </div>
-    <div class="flex justify-center gap-2 mb-10 flex-wrap">
-      <button class="filter-btn active px-5 py-2 rounded-full border border-copper text-sm font-medium" data-filter="all">All</button>
-      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="trades">Trades</button>
-      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="food">Food & Drink</button>
-      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="services">Services</button>
-      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="retail">Retail</button>
-    </div>
-    <div id="portfolio-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-      <div class="item trades rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
-        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <div class="p-4 bg-white"><h4 class="font-bold">Valley Pro Plumbing</h4><p class="text-sm text-stone2">Starter package — 1-page site</p></div>
-      </div>
-      <div class="item food rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
-        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <div class="p-4 bg-white"><h4 class="font-bold">Mesa Street Tacos</h4><p class="text-sm text-stone2">Growth package — 5-page site + menu</p></div>
-      </div>
-      <div class="item services rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
-        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <div class="p-4 bg-white"><h4 class="font-bold">Chandler Family Law</h4><p class="text-sm text-stone2">Premium package — booking + portal</p></div>
-      </div>
-      <div class="item trades rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
-        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <div class="p-4 bg-white"><h4 class="font-bold">Sonoran Green Landscaping</h4><p class="text-sm text-stone2">Premium package — full redesign</p></div>
-      </div>
-      <div class="item retail rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
-        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <div class="p-4 bg-white"><h4 class="font-bold">Desert Bloom Boutique</h4><p class="text-sm text-stone2">Growth package — gallery + Instagram</p></div>
-      </div>
-      <div class="item food rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
-        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
-        <div class="p-4 bg-white"><h4 class="font-bold">Grind Coffee Co.</h4><p class="text-sm text-stone2">Starter package — landing + map</p></div>
-      </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Starter example -->
+      <a href="https://raw.githack.com/rylanibach/Webdesign/main/assets/demo-landscaping/starter.html" target="_blank" class="group block rounded-2xl overflow-hidden border border-sand hover:shadow-xl transition">
+        <div class="relative h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800&q=80" alt="Starter demo" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-3 left-3 bg-copper text-white text-xs font-bold px-3 py-1 rounded-full">Starter</div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-1">1-Page Landing Site</h3>
+          <p class="text-sm text-stone2 mb-4">Clean single-page layout with hero, services, about section, and contact form. Everything a new business needs to get online.</p>
+          <ul class="text-sm text-stone2 space-y-1 mb-4">
+            <li>Hero with call-to-action</li>
+            <li>3 services highlighted</li>
+            <li>About section</li>
+            <li>Contact form</li>
+          </ul>
+          <div class="text-copper font-semibold text-sm group-hover:underline">Open live demo →</div>
+        </div>
+      </a>
+      <!-- Growth example -->
+      <a href="https://raw.githack.com/rylanibach/Webdesign/main/assets/demo-landscaping/growth.html" target="_blank" class="group block rounded-2xl overflow-hidden border-2 border-copper hover:shadow-xl transition relative">
+        <div class="absolute -top-0 left-1/2 -translate-x-1/2 bg-copper text-white text-xs font-bold px-4 py-1 rounded-b-lg z-10">Most popular</div>
+        <div class="relative h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80" alt="Growth demo" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-3 left-3 bg-copper text-white text-xs font-bold px-3 py-1 rounded-full">Growth</div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-1">Multi-Section Website</h3>
+          <p class="text-sm text-stone2 mb-4">Full business site with gallery, customer reviews, Google Maps, and enough room to grow. The sweet spot for most small businesses.</p>
+          <ul class="text-sm text-stone2 space-y-1 mb-4">
+            <li>6 service cards with images</li>
+            <li>8-photo gallery</li>
+            <li>Customer testimonials</li>
+            <li>Embedded map + service area</li>
+            <li>Multi-field contact form</li>
+          </ul>
+          <div class="text-copper font-semibold text-sm group-hover:underline">Open live demo →</div>
+        </div>
+      </a>
+      <!-- Premium example -->
+      <a href="https://raw.githack.com/rylanibach/Webdesign/main/assets/demo-landscaping/premium.html" target="_blank" class="group block rounded-2xl overflow-hidden border border-sand hover:shadow-xl transition">
+        <div class="relative h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=800&q=80" alt="Premium demo" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          <div class="absolute top-3 left-3 bg-copper text-white text-xs font-bold px-3 py-1 rounded-full">Premium</div>
+        </div>
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-1">Fully-Featured Website</h3>
+          <p class="text-sm text-stone2 mb-4">Everything a growing business needs to compete with the big guys — animations, interactive tools, booking, blog, and more.</p>
+          <ul class="text-sm text-stone2 space-y-1 mb-4">
+            <li>Video hero with animations</li>
+            <li>Filterable project portfolio</li>
+            <li>Interactive pricing calculator</li>
+            <li>Online booking form</li>
+            <li>Blog section</li>
+            <li>Testimonial carousel</li>
+          </ul>
+          <div class="text-copper font-semibold text-sm group-hover:underline">Open live demo →</div>
+        </div>
+      </a>
     </div>
   </div>
 </section>
@@ -260,6 +274,10 @@ tailwind.config = {
         <a href="#contact" class="block text-center border border-copper text-copper hover:bg-copper hover:text-white font-semibold py-3 rounded-lg transition">Get started</a>
       </div>
     </div>
+    <div class="text-center mt-10 text-sm text-gray-400">
+      Every package includes hosting, SSL, security patches, uptime monitoring, and a monthly care plan.<br/>
+      50% to start, 50% on launch. Cancel care anytime with 30 days notice.
+    </div>
   </div>
 </section>
 
@@ -269,59 +287,27 @@ tailwind.config = {
     <div class="text-center mb-12">
       <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Add-ons</p>
       <h2 class="font-serif text-4xl md:text-5xl mb-4">Level up with content services</h2>
-      <p class="text-stone2">Your site is only as good as what's on it. Bundle these with any package.</p>
+      <p class="text-stone2">Your site is only as good as what's on it. Bundle these with any web design package.</p>
     </div>
-    <div class="grid md:grid-cols-3 gap-6">
+    <div class="grid md:grid-cols-3 gap-6 mb-10">
       <div class="bg-white rounded-xl p-6 border border-sand">
         <div class="text-3xl mb-3">📸</div>
-        <h3 class="font-bold text-lg mb-1">Photography</h3>
-        <p class="text-copper font-semibold mb-2">From $350</p>
-        <p class="text-sm text-stone2">On-location shoots in Phoenix. Hero images, team photos, product shots — professionally edited and yours to keep.</p>
+        <h3 class="font-bold text-lg mb-2">Photography</h3>
+        <p class="text-sm text-stone2">On-location shoots in the Phoenix metro. Hero images, team photos, product shots — professionally edited and yours to keep forever.</p>
       </div>
       <div class="bg-white rounded-xl p-6 border border-sand">
         <div class="text-3xl mb-3">📱</div>
-        <h3 class="font-bold text-lg mb-1">Social Media</h3>
-        <p class="text-copper font-semibold mb-2">From $400/mo</p>
-        <p class="text-sm text-stone2">Content creation, scheduling, engagement, and reporting across Instagram, Facebook, and TikTok.</p>
+        <h3 class="font-bold text-lg mb-2">Social Media Management</h3>
+        <p class="text-sm text-stone2">Content creation, scheduling, engagement, and reporting across Instagram, Facebook, and TikTok. We handle your social so you can focus on work.</p>
       </div>
       <div class="bg-white rounded-xl p-6 border border-sand">
         <div class="text-3xl mb-3">✍️</div>
-        <h3 class="font-bold text-lg mb-1">Content Creation</h3>
-        <p class="text-copper font-semibold mb-2">From $150</p>
-        <p class="text-sm text-stone2">Web copy, blog posts, email campaigns, and brand identity packages — written in your voice.</p>
+        <h3 class="font-bold text-lg mb-2">Content Creation</h3>
+        <p class="text-sm text-stone2">Web copy, blog posts, email campaigns, video editing, and full brand identity packages — all written and designed in your voice.</p>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ===================== TESTIMONIALS ===================== -->
-<section id="reviews" class="bg-midnight text-white py-24 overflow-hidden">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-14">
-      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Reviews</p>
-      <h2 class="font-serif text-4xl md:text-5xl">What our clients say</h2>
-    </div>
-    <div class="carousel flex gap-6 overflow-x-auto pb-6 -mx-6 px-6">
-      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
-        <div class="text-amber-400 mb-3">★★★★★</div>
-        <p class="italic text-gray-300 mb-4">"I told them what I do and two weeks later I had a website that actually brings in calls. Best money I've spent on my business."</p>
-        <div class="text-sm font-semibold">— Carlos M., Phoenix Plumbing</div>
-      </div>
-      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
-        <div class="text-amber-400 mb-3">★★★★★</div>
-        <p class="italic text-gray-300 mb-4">"They redesigned my site and I went from page 3 on Google to the top 5 in my area within a month. The SEO actually works."</p>
-        <div class="text-sm font-semibold">— Jenna R., Desert Bloom Boutique</div>
-      </div>
-      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
-        <div class="text-amber-400 mb-3">★★★★★</div>
-        <p class="italic text-gray-300 mb-4">"I literally didn't have to do anything. They handled the design, the copy, the photos — all I did was approve it. Exactly what the name says."</p>
-        <div class="text-sm font-semibold">— Dave K., Mesa Auto Detail</div>
-      </div>
-      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
-        <div class="text-amber-400 mb-3">★★★★★</div>
-        <p class="italic text-gray-300 mb-4">"Honest pricing, fast delivery, and they actually answer the phone. Hard to find that these days."</p>
-        <div class="text-sm font-semibold">— Maria G., Chandler Family Dental</div>
-      </div>
+    <div class="text-center">
+      <a href="#addon-quote" class="bg-copper hover:bg-copper-dark text-white font-semibold px-8 py-4 rounded-lg text-lg transition inline-block">Get a custom add-on quote</a>
     </div>
   </div>
 </section>
@@ -345,75 +331,63 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ===================== BLOG ===================== -->
-<section id="blog" class="bg-warm-gray py-24">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="flex justify-between items-end mb-10">
-      <div>
-        <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">From the blog</p>
-        <h2 class="font-serif text-4xl md:text-5xl">Tips for Phoenix businesses</h2>
-      </div>
-      <a href="#" class="text-copper hover:underline text-sm font-medium hidden md:block">All posts →</a>
-    </div>
-    <div class="grid md:grid-cols-3 gap-8">
-      <article class="group">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" alt="" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90 transition" />
-        <div class="mt-4">
-          <div class="text-xs text-copper uppercase font-semibold">Web Design</div>
-          <h3 class="font-bold text-xl mt-1">Why your website is costing you customers (and how to fix it)</h3>
-          <p class="text-sm text-stone2 mt-2">If your site takes more than 3 seconds to load, you're losing 40% of visitors before they even see your homepage.</p>
-        </div>
-      </article>
-      <article class="group">
-        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80" alt="" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90 transition" />
-        <div class="mt-4">
-          <div class="text-xs text-copper uppercase font-semibold">SEO</div>
-          <h3 class="font-bold text-xl mt-1">Google Business Profile: the free tool most Phoenix businesses ignore</h3>
-          <p class="text-sm text-stone2 mt-2">It takes 20 minutes to set up and it's the single biggest driver of local search traffic. Here's how.</p>
-        </div>
-      </article>
-      <article class="group">
-        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80" alt="" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90 transition" />
-        <div class="mt-4">
-          <div class="text-xs text-copper uppercase font-semibold">Social Media</div>
-          <h3 class="font-bold text-xl mt-1">3 posts a week that actually grow your business</h3>
-          <p class="text-sm text-stone2 mt-2">You don't need to go viral. You need consistency, good photos, and a clear call to action.</p>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== CONTACT / BOOKING ===================== -->
-<section id="contact" class="py-24">
+<!-- ===================== CONTACT / QUOTE FORM ===================== -->
+<section id="contact" class="bg-warm-gray py-24">
   <div class="max-w-4xl mx-auto px-6">
     <div class="text-center mb-12">
       <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Get started</p>
       <h2 class="font-serif text-4xl md:text-5xl mb-4">Let's build your website</h2>
       <p class="text-stone2">Free 15-minute call. No pressure. Just an honest look at what your business needs.</p>
     </div>
-    <form class="bg-white p-8 rounded-2xl shadow-lg border border-sand grid md:grid-cols-2 gap-4">
-      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Your name" />
-      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Business name" />
-      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Phone" />
-      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Email" />
-      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper md:col-span-2" placeholder="Current website URL (if you have one)" />
-      <select class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper text-stone2">
-        <option>Which package interests you?</option>
-        <option>Starter ($800)</option>
-        <option>Growth ($2,500)</option>
-        <option>Premium ($5,000)</option>
-        <option>Not sure yet</option>
+    <form action="https://formspree.io/f/rylanibach@gmail.com" method="POST" class="bg-white p-8 rounded-2xl shadow-lg border border-sand grid md:grid-cols-2 gap-4">
+      <input type="hidden" name="_subject" value="New quote request from handsoffdesign.com" />
+      <input name="name" required class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Your name" />
+      <input name="business" required class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Business name" />
+      <input name="phone" type="tel" class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Phone" />
+      <input name="email" type="email" required class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Email" />
+      <input name="website" class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper md:col-span-2" placeholder="Current website URL (if you have one)" />
+      <select name="package" class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper text-stone2">
+        <option value="">Which package interests you?</option>
+        <option value="Starter ($800)">Starter ($800)</option>
+        <option value="Growth ($2,500)">Growth ($2,500)</option>
+        <option value="Premium ($5,000)">Premium ($5,000)</option>
+        <option value="Not sure yet">Not sure yet</option>
       </select>
-      <select class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper text-stone2">
-        <option>Best time to call</option>
-        <option>Morning (9-12)</option>
-        <option>Afternoon (12-5)</option>
-        <option>Evening (5-7)</option>
+      <select name="call_time" class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper text-stone2">
+        <option value="">Best time to call</option>
+        <option value="Morning (9-12)">Morning (9-12)</option>
+        <option value="Afternoon (12-5)">Afternoon (12-5)</option>
+        <option value="Evening (5-7)">Evening (5-7)</option>
       </select>
-      <textarea class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper md:col-span-2 h-28" placeholder="Tell us about your business and what you're looking for"></textarea>
-      <button type="button" class="md:col-span-2 bg-copper hover:bg-copper-dark text-white font-bold py-4 rounded-lg text-lg transition">Request my free quote</button>
+      <textarea name="message" class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper md:col-span-2 h-28" placeholder="Tell us about your business and what you're looking for"></textarea>
+      <button type="submit" class="md:col-span-2 bg-copper hover:bg-copper-dark text-white font-bold py-4 rounded-lg text-lg transition">Request my free quote</button>
       <p class="md:col-span-2 text-center text-xs text-stone2">We'll get back to you within one business day. No spam, no sales pressure.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== ADD-ON QUOTE FORM ===================== -->
+<section id="addon-quote" class="py-24">
+  <div class="max-w-3xl mx-auto px-6">
+    <div class="text-center mb-10">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Content services</p>
+      <h2 class="font-serif text-4xl md:text-5xl mb-4">Get a custom add-on quote</h2>
+      <p class="text-stone2">Photography, social media, content creation — tell us what you need and we'll put together a custom package.</p>
+    </div>
+    <form action="https://formspree.io/f/rylanibach@gmail.com" method="POST" class="bg-warm-gray p-8 rounded-2xl border border-sand grid gap-4">
+      <input type="hidden" name="_subject" value="Add-on quote request from handsoffdesign.com" />
+      <input name="name" required class="border border-sand rounded-lg px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Your name" />
+      <input name="email" type="email" required class="border border-sand rounded-lg px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Email" />
+      <input name="business" class="border border-sand rounded-lg px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Business name" />
+      <div class="space-y-2">
+        <p class="text-sm font-semibold text-midnight">What are you interested in?</p>
+        <label class="flex items-center gap-2 text-sm text-stone2"><input type="checkbox" name="services[]" value="Photography" class="accent-copper" /> Photography (on-location shoots)</label>
+        <label class="flex items-center gap-2 text-sm text-stone2"><input type="checkbox" name="services[]" value="Social Media Management" class="accent-copper" /> Social media management</label>
+        <label class="flex items-center gap-2 text-sm text-stone2"><input type="checkbox" name="services[]" value="Content Creation" class="accent-copper" /> Content creation (copy, blog, video)</label>
+        <label class="flex items-center gap-2 text-sm text-stone2"><input type="checkbox" name="services[]" value="Branding" class="accent-copper" /> Branding / logo design</label>
+      </div>
+      <textarea name="details" class="border border-sand rounded-lg px-4 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-copper h-28" placeholder="Any details — platforms you use, timeline, budget range, etc."></textarea>
+      <button type="submit" class="bg-copper hover:bg-copper-dark text-white font-bold py-4 rounded-lg text-lg transition">Request custom quote</button>
     </form>
   </div>
 </section>
@@ -432,16 +406,12 @@ tailwind.config = {
     </div>
     <div>
       <div class="text-white font-semibold mb-3">Company</div>
-      <ul class="space-y-2"><li><a href="#about" class="hover:text-copper transition">About</a></li><li><a href="#work" class="hover:text-copper transition">Portfolio</a></li><li><a href="#pricing" class="hover:text-copper transition">Pricing</a></li><li><a href="#blog" class="hover:text-copper transition">Blog</a></li></ul>
+      <ul class="space-y-2"><li><a href="#about" class="hover:text-copper transition">About</a></li><li><a href="#examples" class="hover:text-copper transition">Examples</a></li><li><a href="#pricing" class="hover:text-copper transition">Pricing</a></li></ul>
     </div>
     <div>
       <div class="text-white font-semibold mb-3">Contact</div>
       <p>hello@handsoffdesign.com</p>
       <p class="mt-1">Phoenix, AZ metro</p>
-      <div class="flex gap-4 mt-4">
-        <a href="#" class="hover:text-copper transition">Instagram</a>
-        <a href="#" class="hover:text-copper transition">Facebook</a>
-      </div>
     </div>
   </div>
   <div class="text-center text-xs text-gray-600 mt-10 max-w-7xl mx-auto px-6 border-t border-white/5 pt-6">
@@ -451,23 +421,6 @@ tailwind.config = {
 
 <!-- ===================== SCRIPTS ===================== -->
 <script>
-// Portfolio filter
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => {
-      b.classList.remove('active');
-      b.classList.remove('bg-copper','text-white');
-      b.classList.add('text-copper');
-    });
-    btn.classList.add('active','bg-copper','text-white');
-    btn.classList.remove('text-copper');
-    const f = btn.dataset.filter;
-    document.querySelectorAll('#portfolio-grid .item').forEach(el => {
-      el.style.display = (f === 'all' || el.classList.contains(f)) ? '' : 'none';
-    });
-  });
-});
-
 // Fade-up on scroll
 const io = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('fade-up'); });

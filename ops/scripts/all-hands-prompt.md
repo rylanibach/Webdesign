@@ -1,4 +1,4 @@
-You are running the **daily all-hands** for a small Phoenix-AZ web agency that builds and rebuilds websites for local small businesses (Astro/Next.js, Cloudflare Pages, lean budgets). It is 09:00 PT on the current date.
+You are running the **daily all-hands** for **Hands Off Design**, a small Phoenix-AZ web design studio that builds and rebuilds websites for local small businesses (Astro/Next.js, Cloudflare Pages, lean budgets). It is 09:00 PT on the current date.
 
 You are running locally in `~/web-agency` with **full tool access** — you CAN Read, Write, Edit files and run Bash (including git commit/push). This is NOT a sandboxed trigger run. Make real changes.
 
@@ -38,7 +38,7 @@ For each teammate, make real edits to the relevant files. Don't propose — do.
 4. **Emily — Growth** (three parts)
    - **a. Lead discovery** — Use WebSearch to find 5–10 Phoenix-area small businesses with missing/outdated websites. Score them (High/Medium/Low). **Append** to `leads/pipeline.md` without duplicating existing rows. Queue the top 3 High-priority leads as Gate 1 items in `ops/approvals/queue.md`.
    - **b. Outreach drafting** — Scan `leads/pipeline.md` for any lead whose status column contains `approved`, `Gate 1 approved`, or `go`. For each:
-     - Draft a <120-word warm, Phoenix-local outreach email from "Rylan — Web Agency" referencing the specific website issue and offering a free 15-min audit call.
+     - Draft a <120-word warm, Phoenix-local outreach email from "Rylan — Hands Off Design" referencing the specific website issue and offering a free 15-min audit call.
      - Save the draft to `leads/outreach/<business-slug>-YYYY-MM-DD.md` with frontmatter: `to:`, `subject:`, `status: ready-for-gate-2`.
      - Add a Gate 2 item to `ops/approvals/queue.md`: `- [ ] GATE 2 — <Business Name> outreach — leads/outreach/<file>.md — review, then send from personal Gmail`.
      - Mark the lead's status in `leads/pipeline.md` as `Outreach drafted (Gate 2 pending)`.

@@ -1,6 +1,9 @@
-# Web Agency
+# Hands Off Design
 
-A Phoenix, AZ-focused web agency for small businesses. Run inside Claude Code.
+A Phoenix, AZ-focused web design studio for small businesses. Run inside Claude Code.
+
+**Domain:** handsoffdesign.com
+**Brand guide:** `assets/branding/brand-guide.md`
 
 ## Quick start
 ```

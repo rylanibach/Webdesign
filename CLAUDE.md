@@ -1,7 +1,7 @@
 # Hands Off Design — Project Context
 
 ## Mission
-**Hands Off Design** (`handsoffdesign.com`) is a web agency that builds and rebuilds websites for **small businesses in the Phoenix, AZ metro area**. We help local businesses that have no website, an outdated one, or one that doesn't convert. Brand guide: `assets/branding/brand-guide.md`.
+**Hands Off Design** (`handsoffdesign.com`) is a web design studio that builds and rebuilds websites for **small businesses in the Phoenix, AZ metro area**. We help local businesses that have no website, an outdated one, or one that doesn't convert. Brand guide: `assets/branding/brand-guide.md`.
 
 ## How to Resume
 From this directory: `claude` — this CLAUDE.md auto-loads.

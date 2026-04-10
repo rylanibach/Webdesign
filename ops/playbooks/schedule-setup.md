@@ -6,7 +6,7 @@ The agency runs on a **single consolidated daily trigger** (Anthropic plan limit
 
 | Field | Value |
 |---|---|
-| Name | `Web Agency — Daily all-hands` |
+| Name | `Hands Off Design — Daily all-hands` |
 | ID | `trig_01HLqma384JrYZUr4nkdi3Lb` |
 | Cron | `0 16 * * *` UTC = **daily 9:00 AM PT** |
 | Repo | `https://github.com/rylanibach/Webdesign` (cloned **read-only** each run) |
@@ -37,7 +37,7 @@ When you upgrade the plan tier, we can split this into 5+ triggers and re-enable
 
 ## Output format
 
-**Gmail draft** to your authenticated address, subject `Web Agency Daily All-Hands — YYYY-MM-DD`. Body structure:
+**Gmail draft** to your authenticated address, subject `Hands Off Design Daily All-Hands — YYYY-MM-DD`. Body structure:
 
 1. `## ⚠️ Pending Owner Actions` — every approval gate at the very top
 2. Seven sections (Kyle → Stevie → Matt → Emily → Raul → Mon/Fri conditionals)
