@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Hands Off Design — Phoenix Web Design for Small Businesses</title>
+<meta name="description" content="Hands Off Design builds high-converting websites for Phoenix small businesses. You run your business — we'll handle the website." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        midnight: '#1A1A2E',
+        copper: '#C67D4A',
+        'copper-dark': '#A8643A',
+        'warm-gray': '#F5F0EB',
+        stone2: '#6B6B7B',
+        sand: '#E8DDD3',
+        ember: '#D4553A',
+        'desert-sky': '#4A7C8A',
+      },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['DM Serif Display', 'serif'],
+      },
+    },
+  },
+};
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  @keyframes fadeUp { from { opacity:0; transform:translateY(32px) } to { opacity:1; transform:none } }
+  .fade-up { animation: fadeUp .8s ease-out both; }
+  @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+  .float { animation: float 4s ease-in-out infinite; }
+  .carousel { scroll-snap-type: x mandatory; scroll-behavior: smooth; }
+  .carousel > * { scroll-snap-align: center; }
+</style>
+</head>
+
+<body class="bg-white text-midnight font-sans">
+
+<!-- ===================== NAV ===================== -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/85 backdrop-blur-lg border-b border-sand">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#" class="font-bold text-xl tracking-tight">Hands Off <span class="text-copper">Design</span></a>
+    <nav class="hidden lg:flex gap-8 text-sm font-medium text-stone2">
+      <a href="#services" class="hover:text-copper transition">Services</a>
+      <a href="#work" class="hover:text-copper transition">Work</a>
+      <a href="#pricing" class="hover:text-copper transition">Pricing</a>
+      <a href="#reviews" class="hover:text-copper transition">Reviews</a>
+      <a href="#about" class="hover:text-copper transition">About</a>
+      <a href="#blog" class="hover:text-copper transition">Blog</a>
+    </nav>
+    <a href="#contact" class="bg-copper hover:bg-copper-dark text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition">Get a free quote</a>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="relative min-h-screen flex items-center overflow-hidden bg-midnight pt-20">
+  <!-- Video background -->
+  <video class="absolute inset-0 w-full h-full object-cover opacity-30" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80">
+    <source src="https://cdn.pixabay.com/video/2016/09/05/4829-182601965_large.mp4" type="video/mp4" />
+  </video>
+  <div class="absolute inset-0 bg-gradient-to-br from-midnight/90 via-midnight/70 to-midnight/40"></div>
+  <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+    <div class="max-w-3xl fade-up">
+      <p class="uppercase tracking-[0.3em] text-copper text-xs mb-5 font-semibold">Phoenix web design studio</p>
+      <h1 class="font-serif text-5xl md:text-7xl leading-[1.05] text-white mb-6">You run your business.<br/><span class="text-copper">We'll handle the website.</span></h1>
+      <p class="text-xl text-gray-300 mb-8 max-w-xl leading-relaxed">Beautiful, high-converting websites for Phoenix small businesses — built fast, priced fairly, and 100% yours. No lock-in. No mystery.</p>
+      <div class="flex flex-wrap gap-4">
+        <a href="#contact" class="bg-copper hover:bg-copper-dark text-white font-semibold px-8 py-4 rounded-lg text-lg transition">Get your free quote</a>
+        <a href="#work" class="border border-white/40 hover:bg-white/10 text-white px-8 py-4 rounded-lg text-lg transition">See our work</a>
+      </div>
+    </div>
+  </div>
+  <div class="absolute bottom-10 left-0 right-0 flex justify-center float text-white/50 text-sm">scroll</div>
+</section>
+
+<!-- ===================== STATS BAR ===================== -->
+<section class="bg-copper text-white py-12">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <div><div class="text-4xl font-bold">50+</div><div class="text-sm mt-1 text-white/80">Sites launched</div></div>
+    <div><div class="text-4xl font-bold">4.9</div><div class="text-sm mt-1 text-white/80">Google rating</div></div>
+    <div><div class="text-4xl font-bold">2 wk</div><div class="text-sm mt-1 text-white/80">Avg. delivery</div></div>
+    <div><div class="text-4xl font-bold">100%</div><div class="text-sm mt-1 text-white/80">Client ownership</div></div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" class="max-w-7xl mx-auto px-6 py-24">
+  <div class="text-center mb-16">
+    <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">What we do</p>
+    <h2 class="font-serif text-4xl md:text-5xl mb-4">Everything your business needs online</h2>
+    <p class="text-stone2 max-w-2xl mx-auto">From a simple landing page to a full digital presence — we meet you where you are and build what actually moves the needle.</p>
+  </div>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="group relative rounded-2xl overflow-hidden h-80">
+      <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80" alt="Web design" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" />
+      <div class="absolute inset-0 bg-gradient-to-t from-midnight/90 to-transparent"></div>
+      <div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Web Design</h3><p class="text-sm text-gray-300 mt-1">Custom sites that convert visitors into customers</p></div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden h-80">
+      <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80" alt="SEO" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" />
+      <div class="absolute inset-0 bg-gradient-to-t from-midnight/90 to-transparent"></div>
+      <div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Local SEO</h3><p class="text-sm text-gray-300 mt-1">Show up when Phoenix customers search for you</p></div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden h-80">
+      <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80" alt="Social media" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" />
+      <div class="absolute inset-0 bg-gradient-to-t from-midnight/90 to-transparent"></div>
+      <div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Social Media</h3><p class="text-sm text-gray-300 mt-1">Content, scheduling, and management across platforms</p></div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden h-80">
+      <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80" alt="Photography" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" />
+      <div class="absolute inset-0 bg-gradient-to-t from-midnight/90 to-transparent"></div>
+      <div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Photography</h3><p class="text-sm text-gray-300 mt-1">On-location shoots for your site and social</p></div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden h-80">
+      <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80" alt="Content" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" />
+      <div class="absolute inset-0 bg-gradient-to-t from-midnight/90 to-transparent"></div>
+      <div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Copywriting</h3><p class="text-sm text-gray-300 mt-1">Words that sound like you and sell for you</p></div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden h-80">
+      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80" alt="Branding" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" />
+      <div class="absolute inset-0 bg-gradient-to-t from-midnight/90 to-transparent"></div>
+      <div class="absolute bottom-0 p-6 text-white"><h3 class="text-2xl font-bold">Branding</h3><p class="text-sm text-gray-300 mt-1">Logo, colors, fonts, and a voice that fits</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="bg-warm-gray py-24">
+  <div class="max-w-5xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">How it works</p>
+      <h2 class="font-serif text-4xl md:text-5xl mb-4">Three steps. Zero stress.</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="text-center">
+        <div class="w-16 h-16 rounded-full bg-copper text-white text-2xl font-bold flex items-center justify-center mx-auto mb-5">1</div>
+        <h3 class="font-bold text-xl mb-2">Tell us about your business</h3>
+        <p class="text-stone2">15-minute call. We learn what you do, who your customers are, and what you need.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-16 h-16 rounded-full bg-copper text-white text-2xl font-bold flex items-center justify-center mx-auto mb-5">2</div>
+        <h3 class="font-bold text-xl mb-2">We design and build</h3>
+        <p class="text-stone2">You review mockups, give feedback, and approve. We handle the rest.</p>
+      </div>
+      <div class="text-center">
+        <div class="w-16 h-16 rounded-full bg-copper text-white text-2xl font-bold flex items-center justify-center mx-auto mb-5">3</div>
+        <h3 class="font-bold text-xl mb-2">Launch and grow</h3>
+        <p class="text-stone2">Your site goes live. We keep it updated, fast, and ranking on Google.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PORTFOLIO ===================== -->
+<section id="work" class="py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Our work</p>
+      <h2 class="font-serif text-4xl md:text-5xl">Sites we've launched</h2>
+    </div>
+    <div class="flex justify-center gap-2 mb-10 flex-wrap">
+      <button class="filter-btn active px-5 py-2 rounded-full border border-copper text-sm font-medium" data-filter="all">All</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="trades">Trades</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="food">Food & Drink</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="services">Services</button>
+      <button class="filter-btn px-5 py-2 rounded-full border border-copper text-copper text-sm font-medium" data-filter="retail">Retail</button>
+    </div>
+    <div id="portfolio-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="item trades rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <div class="p-4 bg-white"><h4 class="font-bold">Valley Pro Plumbing</h4><p class="text-sm text-stone2">Starter package — 1-page site</p></div>
+      </div>
+      <div class="item food rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <div class="p-4 bg-white"><h4 class="font-bold">Mesa Street Tacos</h4><p class="text-sm text-stone2">Growth package — 5-page site + menu</p></div>
+      </div>
+      <div class="item services rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <div class="p-4 bg-white"><h4 class="font-bold">Chandler Family Law</h4><p class="text-sm text-stone2">Premium package — booking + portal</p></div>
+      </div>
+      <div class="item trades rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <div class="p-4 bg-white"><h4 class="font-bold">Sonoran Green Landscaping</h4><p class="text-sm text-stone2">Premium package — full redesign</p></div>
+      </div>
+      <div class="item retail rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <div class="p-4 bg-white"><h4 class="font-bold">Desert Bloom Boutique</h4><p class="text-sm text-stone2">Growth package — gallery + Instagram</p></div>
+      </div>
+      <div class="item food rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition group">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500" />
+        <div class="p-4 bg-white"><h4 class="font-bold">Grind Coffee Co.</h4><p class="text-sm text-stone2">Starter package — landing + map</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section id="pricing" class="bg-midnight text-white py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Pricing</p>
+      <h2 class="font-serif text-4xl md:text-5xl mb-4">Simple, honest pricing</h2>
+      <p class="text-gray-400 max-w-xl mx-auto">No hidden fees. No surprise invoices. Pick a package, and that's the price.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Starter -->
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-copper/50 transition">
+        <div class="text-sm font-semibold text-copper mb-2">Starter</div>
+        <div class="text-4xl font-bold mb-1">$800</div>
+        <div class="text-sm text-gray-400 mb-6">one-time + $39/mo care</div>
+        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+          <li>1-page responsive website</li>
+          <li>Contact form</li>
+          <li>Basic SEO + Google Business Profile</li>
+          <li>Hosting + SSL included</li>
+          <li>1 round of revisions</li>
+          <li>Delivered in 2 weeks</li>
+        </ul>
+        <a href="#contact" class="block text-center border border-copper text-copper hover:bg-copper hover:text-white font-semibold py-3 rounded-lg transition">Get started</a>
+      </div>
+      <!-- Growth -->
+      <div class="bg-copper/10 border-2 border-copper rounded-2xl p-8 relative">
+        <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-copper text-white text-xs font-bold px-4 py-1 rounded-full">Most popular</div>
+        <div class="text-sm font-semibold text-copper mb-2">Growth</div>
+        <div class="text-4xl font-bold mb-1">$2,500</div>
+        <div class="text-sm text-gray-400 mb-6">one-time + $79/mo care</div>
+        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+          <li>5-page website</li>
+          <li>Image gallery + testimonials</li>
+          <li>Google Maps + service area</li>
+          <li>Advanced local SEO</li>
+          <li>Blog-ready (optional CMS)</li>
+          <li>2 rounds of revisions</li>
+          <li>Delivered in 3 weeks</li>
+        </ul>
+        <a href="#contact" class="block text-center bg-copper hover:bg-copper-dark text-white font-semibold py-3 rounded-lg transition">Get started</a>
+      </div>
+      <!-- Premium -->
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-8 hover:border-copper/50 transition">
+        <div class="text-sm font-semibold text-copper mb-2">Premium</div>
+        <div class="text-4xl font-bold mb-1">$5,000</div>
+        <div class="text-sm text-gray-400 mb-6">one-time + $149/mo care</div>
+        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+          <li>Unlimited pages</li>
+          <li>Custom animations</li>
+          <li>Online booking / quote form</li>
+          <li>Customer portal</li>
+          <li>Blog + newsletter</li>
+          <li>Priority support (24hr)</li>
+          <li>Delivered in 4-6 weeks</li>
+        </ul>
+        <a href="#contact" class="block text-center border border-copper text-copper hover:bg-copper hover:text-white font-semibold py-3 rounded-lg transition">Get started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ADD-ONS ===================== -->
+<section class="bg-warm-gray py-24">
+  <div class="max-w-5xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Add-ons</p>
+      <h2 class="font-serif text-4xl md:text-5xl mb-4">Level up with content services</h2>
+      <p class="text-stone2">Your site is only as good as what's on it. Bundle these with any package.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl p-6 border border-sand">
+        <div class="text-3xl mb-3">📸</div>
+        <h3 class="font-bold text-lg mb-1">Photography</h3>
+        <p class="text-copper font-semibold mb-2">From $350</p>
+        <p class="text-sm text-stone2">On-location shoots in Phoenix. Hero images, team photos, product shots — professionally edited and yours to keep.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 border border-sand">
+        <div class="text-3xl mb-3">📱</div>
+        <h3 class="font-bold text-lg mb-1">Social Media</h3>
+        <p class="text-copper font-semibold mb-2">From $400/mo</p>
+        <p class="text-sm text-stone2">Content creation, scheduling, engagement, and reporting across Instagram, Facebook, and TikTok.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 border border-sand">
+        <div class="text-3xl mb-3">✍️</div>
+        <h3 class="font-bold text-lg mb-1">Content Creation</h3>
+        <p class="text-copper font-semibold mb-2">From $150</p>
+        <p class="text-sm text-stone2">Web copy, blog posts, email campaigns, and brand identity packages — written in your voice.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section id="reviews" class="bg-midnight text-white py-24 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-14">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Reviews</p>
+      <h2 class="font-serif text-4xl md:text-5xl">What our clients say</h2>
+    </div>
+    <div class="carousel flex gap-6 overflow-x-auto pb-6 -mx-6 px-6">
+      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
+        <div class="text-amber-400 mb-3">★★★★★</div>
+        <p class="italic text-gray-300 mb-4">"I told them what I do and two weeks later I had a website that actually brings in calls. Best money I've spent on my business."</p>
+        <div class="text-sm font-semibold">— Carlos M., Phoenix Plumbing</div>
+      </div>
+      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
+        <div class="text-amber-400 mb-3">★★★★★</div>
+        <p class="italic text-gray-300 mb-4">"They redesigned my site and I went from page 3 on Google to the top 5 in my area within a month. The SEO actually works."</p>
+        <div class="text-sm font-semibold">— Jenna R., Desert Bloom Boutique</div>
+      </div>
+      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
+        <div class="text-amber-400 mb-3">★★★★★</div>
+        <p class="italic text-gray-300 mb-4">"I literally didn't have to do anything. They handled the design, the copy, the photos — all I did was approve it. Exactly what the name says."</p>
+        <div class="text-sm font-semibold">— Dave K., Mesa Auto Detail</div>
+      </div>
+      <div class="min-w-[320px] md:min-w-[400px] bg-white/5 border border-white/10 rounded-2xl p-8">
+        <div class="text-amber-400 mb-3">★★★★★</div>
+        <p class="italic text-gray-300 mb-4">"Honest pricing, fast delivery, and they actually answer the phone. Hard to find that these days."</p>
+        <div class="text-sm font-semibold">— Maria G., Chandler Family Dental</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="py-24">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">About us</p>
+      <h2 class="font-serif text-4xl md:text-5xl mb-6">A Phoenix studio that<br/>gets small business.</h2>
+      <p class="text-stone2 mb-4 leading-relaxed">Hands Off Design was built for one reason: too many small businesses in Phoenix are losing customers because their website is bad — or they don't have one at all.</p>
+      <p class="text-stone2 mb-4 leading-relaxed">We're a small team that actually picks up the phone, explains things in plain English, and delivers sites that work. No bloated agencies, no six-month timelines, no mystery invoices.</p>
+      <p class="text-stone2 leading-relaxed">Every site we build is 100% owned by you. If you ever want to leave, we hand over the keys — no hostage fees, no proprietary lock-in.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4">
+      <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Team working" class="rounded-xl h-56 object-cover" />
+      <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80" alt="Workspace" class="rounded-xl h-56 object-cover mt-8" />
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Design process" class="rounded-xl h-56 object-cover" />
+      <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=600&q=80" alt="Phoenix skyline" class="rounded-xl h-56 object-cover mt-8" />
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BLOG ===================== -->
+<section id="blog" class="bg-warm-gray py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex justify-between items-end mb-10">
+      <div>
+        <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">From the blog</p>
+        <h2 class="font-serif text-4xl md:text-5xl">Tips for Phoenix businesses</h2>
+      </div>
+      <a href="#" class="text-copper hover:underline text-sm font-medium hidden md:block">All posts →</a>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <article class="group">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" alt="" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90 transition" />
+        <div class="mt-4">
+          <div class="text-xs text-copper uppercase font-semibold">Web Design</div>
+          <h3 class="font-bold text-xl mt-1">Why your website is costing you customers (and how to fix it)</h3>
+          <p class="text-sm text-stone2 mt-2">If your site takes more than 3 seconds to load, you're losing 40% of visitors before they even see your homepage.</p>
+        </div>
+      </article>
+      <article class="group">
+        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80" alt="" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90 transition" />
+        <div class="mt-4">
+          <div class="text-xs text-copper uppercase font-semibold">SEO</div>
+          <h3 class="font-bold text-xl mt-1">Google Business Profile: the free tool most Phoenix businesses ignore</h3>
+          <p class="text-sm text-stone2 mt-2">It takes 20 minutes to set up and it's the single biggest driver of local search traffic. Here's how.</p>
+        </div>
+      </article>
+      <article class="group">
+        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80" alt="" class="rounded-xl h-56 w-full object-cover group-hover:opacity-90 transition" />
+        <div class="mt-4">
+          <div class="text-xs text-copper uppercase font-semibold">Social Media</div>
+          <h3 class="font-bold text-xl mt-1">3 posts a week that actually grow your business</h3>
+          <p class="text-sm text-stone2 mt-2">You don't need to go viral. You need consistency, good photos, and a clear call to action.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT / BOOKING ===================== -->
+<section id="contact" class="py-24">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <p class="uppercase tracking-widest text-copper text-xs font-semibold mb-3">Get started</p>
+      <h2 class="font-serif text-4xl md:text-5xl mb-4">Let's build your website</h2>
+      <p class="text-stone2">Free 15-minute call. No pressure. Just an honest look at what your business needs.</p>
+    </div>
+    <form class="bg-white p-8 rounded-2xl shadow-lg border border-sand grid md:grid-cols-2 gap-4">
+      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Your name" />
+      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Business name" />
+      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Phone" />
+      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper" placeholder="Email" />
+      <input class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper md:col-span-2" placeholder="Current website URL (if you have one)" />
+      <select class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper text-stone2">
+        <option>Which package interests you?</option>
+        <option>Starter ($800)</option>
+        <option>Growth ($2,500)</option>
+        <option>Premium ($5,000)</option>
+        <option>Not sure yet</option>
+      </select>
+      <select class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper text-stone2">
+        <option>Best time to call</option>
+        <option>Morning (9-12)</option>
+        <option>Afternoon (12-5)</option>
+        <option>Evening (5-7)</option>
+      </select>
+      <textarea class="border border-sand rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-copper md:col-span-2 h-28" placeholder="Tell us about your business and what you're looking for"></textarea>
+      <button type="button" class="md:col-span-2 bg-copper hover:bg-copper-dark text-white font-bold py-4 rounded-lg text-lg transition">Request my free quote</button>
+      <p class="md:col-span-2 text-center text-xs text-stone2">We'll get back to you within one business day. No spam, no sales pressure.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="bg-midnight text-gray-400 py-14">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 text-sm">
+    <div>
+      <div class="text-white font-bold text-lg mb-3">Hands Off <span class="text-copper">Design</span></div>
+      <p>You run your business. We'll handle the website.</p>
+      <p class="mt-2">Phoenix, AZ</p>
+    </div>
+    <div>
+      <div class="text-white font-semibold mb-3">Services</div>
+      <ul class="space-y-2"><li><a href="#services" class="hover:text-copper transition">Web Design</a></li><li><a href="#services" class="hover:text-copper transition">Local SEO</a></li><li><a href="#services" class="hover:text-copper transition">Social Media</a></li><li><a href="#services" class="hover:text-copper transition">Photography</a></li></ul>
+    </div>
+    <div>
+      <div class="text-white font-semibold mb-3">Company</div>
+      <ul class="space-y-2"><li><a href="#about" class="hover:text-copper transition">About</a></li><li><a href="#work" class="hover:text-copper transition">Portfolio</a></li><li><a href="#pricing" class="hover:text-copper transition">Pricing</a></li><li><a href="#blog" class="hover:text-copper transition">Blog</a></li></ul>
+    </div>
+    <div>
+      <div class="text-white font-semibold mb-3">Contact</div>
+      <p>hello@handsoffdesign.com</p>
+      <p class="mt-1">Phoenix, AZ metro</p>
+      <div class="flex gap-4 mt-4">
+        <a href="#" class="hover:text-copper transition">Instagram</a>
+        <a href="#" class="hover:text-copper transition">Facebook</a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center text-xs text-gray-600 mt-10 max-w-7xl mx-auto px-6 border-t border-white/5 pt-6">
+    © 2026 Hands Off Design. All rights reserved.
+  </div>
+</footer>
+
+<!-- ===================== SCRIPTS ===================== -->
+<script>
+// Portfolio filter
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.remove('active');
+      b.classList.remove('bg-copper','text-white');
+      b.classList.add('text-copper');
+    });
+    btn.classList.add('active','bg-copper','text-white');
+    btn.classList.remove('text-copper');
+    const f = btn.dataset.filter;
+    document.querySelectorAll('#portfolio-grid .item').forEach(el => {
+      el.style.display = (f === 'all' || el.classList.contains(f)) ? '' : 'none';
+    });
+  });
+});
+
+// Fade-up on scroll
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('fade-up'); });
+}, { threshold: 0.15 });
+document.querySelectorAll('section').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
