@@ -6,7 +6,7 @@ _Phoenix small business web design + content services. Lean budgets, real result
 
 ## Web Design Packages
 
-### 🌱 Starter — $800 one-time + $39/mo care
+### 🌱 Starter — $600 one-time + $39/mo care
 **For:** solopreneurs, brand-new businesses, anyone replacing a "no website / Facebook only" presence with something professional.
 
 **Includes:**
@@ -25,7 +25,7 @@ _Phoenix small business web design + content services. Lean budgets, real result
 
 ---
 
-### 🌳 Growth — $2,500 one-time + $79/mo care
+### 🌳 Growth — $1,700 one-time + $79/mo care
 **For:** established small businesses (1–10 employees) who want a real web presence that converts visitors into calls.
 
 **Everything in Starter, plus:**
@@ -44,7 +44,7 @@ _Phoenix small business web design + content services. Lean budgets, real result
 
 ---
 
-### 🌲 Premium — $5,000 one-time + $149/mo care
+### 🌲 Premium — $3,000 one-time + $149/mo care
 **For:** growing businesses ready to scale — you want a site that competes with national chains in your category.
 
 **Everything in Growth, plus:**
