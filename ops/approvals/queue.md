@@ -33,11 +33,11 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 ## Gate 2 — Outreach Approvals
 _Emily adds email drafts here. Owner approves before send. Follow-ups also queue here._
 
-- [ ] GATE 2 | Jimenez Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/jimenez-landscaping-2026-04-10.md
-- [ ] GATE 2 | Escalona Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/escalona-landscaping-2026-04-10.md
-- [ ] GATE 2 | Osvaldo's Landscaping Service | Outreach email draft — review, then send from personal Gmail | leads/outreach/osvaldos-landscaping-2026-04-10.md
-- [ ] GATE 2 | Phoenix Pavers | Outreach email draft — review, then send from personal Gmail | leads/outreach/phoenix-pavers-2026-04-10.md
-- [ ] GATE 2 | Kargo Mobile Mechanics | Outreach email draft — review, then send from personal Gmail | leads/outreach/kargo-mobile-mechanics-2026-04-10.md
+- [X] GATE 2 | Jimenez Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/jimenez-landscaping-2026-04-10.md
+- [X] GATE 2 | Escalona Landscaping | Outreach email draft — review, then send from personal Gmail | leads/outreach/escalona-landscaping-2026-04-10.md
+- [X] GATE 2 | Osvaldo's Landscaping Service | Outreach email draft — review, then send from personal Gmail | leads/outreach/osvaldos-landscaping-2026-04-10.md
+- [X] GATE 2 | Phoenix Pavers | Outreach email draft — review, then send from personal Gmail | leads/outreach/phoenix-pavers-2026-04-10.md
+- [X] GATE 2 | Kargo Mobile Mechanics | Outreach email draft — review, then send from personal Gmail | leads/outreach/kargo-mobile-mechanics-2026-04-10.md
 
 <!-- Emily appends here -->
 
