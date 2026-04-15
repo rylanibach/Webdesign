@@ -52,6 +52,22 @@ Reusable guide for writing website copy for our clients. Copy to `clients/<name>
 - Specific numbers ("23 years," "500+ homes served," "4.9 stars")
 - Local references ("Valley-wide," "East Valley," "right here in Phoenix")
 
+## Industry-Specific Hooks
+
+Use these as starting points when drafting hero headlines and CTAs for specific industries:
+
+| Industry | Hero Angle | CTA Angle |
+|---|---|---|
+| Landscaping | "Your yard, but better" / desert-friendly curb appeal | Free yard consultation |
+| HVAC / Plumbing | Urgency + reliability — "don't sweat it" | Same-day service scheduling |
+| Auto Repair (Mobile) | Convenience — "we come to you" | Book a mobile appointment |
+| Pet Grooming (Mobile) | Stress-free for pets — "grooming at your door" | Schedule a visit |
+| Fencing / Concrete | Durability + pride — "built to last in the Arizona sun" | Free on-site estimate |
+| Painting | Transformation — "fresh look, same home" | Free color consultation |
+| Handyman | One call, everything handled | Free walkthrough estimate |
+| Pool Service | Crystal clear, no hassle | Free pool inspection |
+| Pressure Washing | Instant curb appeal | Before/after photo + free quote |
+
 ## Formatting
 - Short paragraphs (2–3 sentences max)
 - Bullet points for lists of services

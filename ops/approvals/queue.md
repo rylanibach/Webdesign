@@ -25,6 +25,16 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 - [X] GATE 1 | Cardinals Fencing | Phoenix fencing contractor — Yelp-only presence, no website found. Pursue? | leads/pipeline.md
 - [X] GATE 1 | Nikki's Mobile Grooming | Phoenix mobile pet groomer — no website, Yelp listing with phone only. Pursue? | leads/pipeline.md
 - [X] GATE 1 | Midwest Concrete | Glendale concrete/masonry — family-owned 35+ yrs, Yelp-only, no website. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Japez Mobile Detailing | Scottsdale mobile detailer — top-rated on Yelp, no dedicated website, Instagram only. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Big J's Mobile Detail | Phoenix mobile detailer — Yelp listing only, no website. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | The Lightning Mobile Car Wash | Phoenix mobile car wash — 5-star Yelp, no website. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Cam's Mobile Mechanic | Phoenix mobile mechanic — Yelp-only, no website, Mon–Fri operation. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | A's Pool Service and Repairs | Phoenix pool service — Yelp-only, 10+ yrs experience, no dedicated website. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | LD Pressure Washing | Tempe pressure washing — Yelp-only listing, no website found. Pursue? | leads/pipeline.md
+
+- [ ] GATE 1 | Foquito Electric | Mesa electrician — Yelp-only listing, no dedicated website. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | GJ Solutions Painting | Phoenix house painter — family-owned, Yelp-focused, minimal web presence. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Starfix Appliance Repair | Phoenix appliance repair — Yelp listing only, no dedicated website. Pursue? | leads/pipeline.md
 
 <!-- Emily appends here -->
 
@@ -38,6 +48,9 @@ _Emily adds email drafts here. Owner approves before send. Follow-ups also queue
 - [X] GATE 2 | Osvaldo's Landscaping Service | Outreach email draft — review, then send from personal Gmail | leads/outreach/osvaldos-landscaping-2026-04-10.md
 - [X] GATE 2 | Phoenix Pavers | Outreach email draft — review, then send from personal Gmail | leads/outreach/phoenix-pavers-2026-04-10.md
 - [X] GATE 2 | Kargo Mobile Mechanics | Outreach email draft — review, then send from personal Gmail | leads/outreach/kargo-mobile-mechanics-2026-04-10.md
+- [ ] GATE 2 | Cardinals Fencing | Outreach email draft — review, then send from personal Gmail | leads/outreach/cardinals-fencing-2026-04-12.md
+- [ ] GATE 2 | Nikki's Mobile Grooming | Outreach email draft — review, then send from personal Gmail | leads/outreach/nikkis-mobile-grooming-2026-04-12.md
+- [ ] GATE 2 | Midwest Concrete | Outreach email draft — review, then send from personal Gmail | leads/outreach/midwest-concrete-2026-04-12.md
 
 <!-- Emily appends here -->
 

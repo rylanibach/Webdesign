@@ -1,0 +1,98 @@
+=== Daily All-Hands run started at Fri Apr 10 09:00:00 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+---
+
+## Daily All-Hands Summary — 2026-04-10 (Friday)
+
+| Metric | Value |
+|---|---|
+| **Files changed** | 15 |
+| **New leads added** | 6 (3 High, 3 Medium) |
+| **Gate 1 items queued** | 3 (Cardinals Fencing, Nikki's Mobile Grooming, Midwest Concrete) |
+| **Gate 2 outreach drafts ready** | 5 (Jimenez, Escalona, Osvaldo's, Phoenix Pavers, Kargo) |
+| **Commit hash** | `ad1d40a` |
+
+### What each teammate did:
+- **Kyle** — Standup compiled, Friday weekly review written, 8 approval items surfaced
+- **Stevie** — Design system template (color palettes, typography, component patterns, accessibility checklist)
+- **Matt** — Tailwind/Astro component library (Hero, ServiceCard, CTABand, Testimonial, ContactForm, Header)
+- **Emily** — 6 new leads discovered, 5 outreach emails drafted, pipeline updated
+- **Raul** — Services page copy template with industry-specific examples
+
+### Blockers for the owner before Monday:
+1. **Review 5 Gate 2 outreach emails** in `ops/approvals/queue.md` — approve each so Emily can send Monday morning
+2. **Review 3 new Gate 1 leads** — Cardinals Fencing, Nikki's Mobile Grooming, Midwest Concrete — approve or skip
+3. No active clients yet — the pipeline needs these approvals to start converting
+
+=== Daily All-Hands run finished at Fri Apr 10 09:06:30 MST 2026 (exit 0) ===
+
+=== Email delivery ===
+{"id":"bb1a219f-4332-427f-8203-69de4d7df1e3"}
+=== Daily All-Hands run started at Sat Apr 11 09:09:09 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"Invalid authentication credentials"},"request_id":"req_011CZygP4y3Czjb65bih3xAF"}
+
+=== Daily All-Hands run finished at Sun Apr 12 02:58:21 MST 2026 (exit 1) ===
+
+=== Email delivery ===
+{"id":"5796ec37-2b02-4aae-ba7a-1604eb4984b8"}
+=== Daily All-Hands run started at Sun Apr 12 09:15:48 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"Invalid authentication credentials"},"request_id":"req_011CZzN3KaDgr6HL4ztwsCHS"}
+
+=== Daily All-Hands run finished at Sun Apr 12 11:38:26 MST 2026 (exit 1) ===
+
+=== Email delivery ===
+{"id":"aeac8160-9291-455f-8647-885588219657"}
+=== Daily All-Hands run started at Mon Apr 13 09:08:31 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+   9ef14a2..e66fa6d  main       -> origin/main
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Updating 9ef14a2..e66fa6d
+Fast-forward
+ ops/approvals/queue.md | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+You've hit your limit · resets Apr 14 at 4pm (America/Phoenix)
+
+=== Daily All-Hands run finished at Mon Apr 13 09:08:46 MST 2026 (exit 1) ===
+
+=== Email delivery ===
+{"id":"1307eb6c-01b6-4b7a-ae09-88e568f84c0a"}
+=== Daily All-Hands run started at Tue Apr 14 09:00:02 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+You've hit your limit · resets 4pm (America/Phoenix)
+
+=== Daily All-Hands run finished at Tue Apr 14 09:00:12 MST 2026 (exit 1) ===
+
+=== Email delivery ===
+{"id":"3b69e65c-6910-4618-a3a8-c080d7f7a21a"}
+=== Daily All-Hands run started at Wed Apr 15 09:00:03 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Failed to authenticate. API Error: 401 {"type":"error","error":{"type":"authentication_error","message":"Invalid authentication credentials"},"request_id":"req_011Ca5qPrWXxqXVgX6qnnVKx"}
+
+=== Daily All-Hands run finished at Wed Apr 15 09:00:07 MST 2026 (exit 1) ===
+
+=== Email delivery ===
+{"id":"b133e1e2-0dd7-45f8-8692-da0bd30f19c2"}

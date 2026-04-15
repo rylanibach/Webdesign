@@ -94,6 +94,62 @@ Base unit: `0.25rem` (4px). Use Tailwind spacing utilities.
 - Star rating (filled stars in `accent` color)
 - 3-column grid or horizontal scroll on mobile
 
+### Contact Form
+- White card on `surface-alt` background, `shadow-md`, rounded corners (`rounded-xl`)
+- Fields: Name, Phone, Email, Message — single column, full-width inputs
+- Labels above fields, `text-sm font-medium text-text-muted`
+- Input styling: `border border-slate-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary`
+- Submit button: full-width on mobile, auto-width on desktop, uses `primary` with white text
+- Below form: "Or call us directly" + clickable phone number
+- Optional: Cloudflare Turnstile captcha badge bottom-right
+
+### Footer
+- Full-width `bg-slate-900 text-white` section
+- Three-column layout on desktop, stacked on mobile:
+  - Col 1: Business name/logo, 1-line tagline, phone + email links
+  - Col 2: Quick links (Home, Services, About, Contact)
+  - Col 3: Service area (list Phoenix metro cities), hours of operation
+- Bottom bar: `border-t border-slate-700 py-4` — copyright, "Website by Hands Off Design" link
+- Social icons (if applicable): Facebook, Instagram, Google Business — icon-only, `hover:text-primary-light`
+- Phone number and email use `tel:` and `mailto:` links for mobile tap-to-call
+
+### Map / Service Area
+- Embedded Google Map or static map image showing service area
+- Below map: bullet list of cities served (Phoenix, Scottsdale, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria)
+- Use `surface-alt` background to contrast with adjacent sections
+
+---
+
+## Image Guidelines
+
+| Context | Format | Max Width | Notes |
+|---|---|---|---|
+| Hero background | WebP/AVIF | 1920px | Serve 2x for retina, use `<picture>` with fallback |
+| Service card icon | SVG | — | Heroicons or Lucide, inline for color control |
+| Testimonial avatar | WebP | 96px | Circular crop, lazy-load |
+| Gallery / portfolio | WebP/AVIF | 800px | Lazy-load, aspect-ratio hint to prevent layout shift |
+| Logo (client) | SVG | — | Request vector from client; rasterize only as fallback |
+
+- Always set `loading="lazy"` on below-fold images
+- Always set explicit `width` and `height` attributes to prevent CLS
+- Use Astro's `<Image>` component for automatic optimization when possible
+
+---
+
+## Dark Mode Tokens (Optional)
+
+For clients who want a dark variant. Map to `prefers-color-scheme: dark` or a toggle.
+
+| Token | Light Value | Dark Value |
+|---|---|---|
+| `surface` | `#F8FAFC` | `#0F172A` (slate-900) |
+| `surface-alt` | `#FFFFFF` | `#1E293B` (slate-800) |
+| `text` | `#1E293B` | `#F1F5F9` (slate-100) |
+| `text-muted` | `#64748B` | `#94A3B8` (slate-400) |
+| `border` | `#E2E8F0` (slate-200) | `#334155` (slate-700) |
+
+Primary and accent tokens stay the same in both modes.
+
 ---
 
 ## Responsive Breakpoints
