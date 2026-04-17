@@ -4,6 +4,42 @@ Format: one section per day, newest on top. Each teammate appends a 1–3 bullet
 
 ---
 
+## 2026-04-17 — Friday
+
+**Kyle (PM):**
+- Morning orchestration: yesterday's run (Apr 16) hit a Claude usage cap at 09:02 and didn't push the Gate 2 entries for the 8 outreach drafts it wrote. Caught up today — all 8 now queued for owner review.
+- Reviewed approval queue: **15 Gate 1 pending** (Japez + 3 handymen from Apr 12 that were never queued, Garcia's / Handyman Protocol / Able + 8 new industry picks from today) and **8 Gate 2 pending** (the Apr-16 outreach batch). Pipeline is genuinely blocked on owner decisions — we have 11 ready-to-send emails sitting idle.
+- No active clients yet. Dispatched Emily → discovery (10 new leads, 3 High queued), Stevie → mobile-first Phoenix playbook, Matt → SEO/LocalBusiness schema scaffold, Raul → FAQ template.
+- Friday weekly review written to `ops/weekly-review.md`.
+
+**Stevie (Design):**
+- No active client engagements. Published `ops/playbooks/mobile-first-phoenix-checklist.md` — Phoenix-specific mobile audit covering thumb zone, sunlight readability, 1-hand form friction, speed budget, and a physical-world sanity check (tap CTA one-handed in direct sunlight).
+- Complements `design-system.md` with the behavioral/UX layer design tokens alone don't cover.
+- Ready to wireframe day-one when first client responds.
+
+**Matt (Dev):**
+- No active client builds. Addressed last week's "next focus" item: published `clients/_template/dev/seo-local-business.md` with copy-paste Astro `<SEO />` and `<LocalBusinessSchema />` components, per-client `business.ts` data file, sitemap/robots setup, and a pre-ship SEO audit checklist.
+- NAP consistency rule documented so footer + JSON-LD + geo meta never drift from GBP.
+- Astro starter + Tailwind lib + pre-launch checklist + SEO pack now complete. Zero templates blocking first client scaffold.
+
+**Emily (Growth):**
+- Lead discovery: found 10 new leads across garage door, window cleaning, food truck, carpet cleaning, locksmith, and bike shop.
+  - 3 High queued as Gate 1: Phoenician Garage Door & Repair (Phoenix), J Window Cleaning (Gilbert), Taqueria1AZ (Scottsdale).
+  - 7 Medium: Today Garage Door, Lumberjack's Taco Shack, Integrity Carpet & Tile (Mesa), Window Works LLC (Gilbert), Arizona Locksmith, Mario's Locksmith, Domenic's 2 Wheelers (Tempe).
+- Also queued 3 Gate 1 items that never made it to the queue from the Apr-12 run: Garcia's Handyman, Handyman Protocol, Able Handyman Services — all still "pending" in the pipeline.
+- Outreach: all 8 approved Apr-14/15 leads already have drafts from yesterday's run. Added the 8 missing Gate 2 entries and bumped their pipeline stage to "Contacted / Gate 2 pending." No new drafts to write this morning — no new approvals since yesterday.
+- SEO: no active clients. Prepped a Phoenix + [service] + [neighborhood] keyword template to deploy the moment we sign one.
+
+**Raul (Content):**
+- No active client copy. Published `assets/faq-copy-template.md` — universal Phoenix-trust question bank (license, years in biz, service area, response time, warranty), pricing/logistics modules, industry-specific examples (HVAC, pool, mobile mechanic, landscaping, handyman), voice rules, and an FAQPage JSON-LD handoff note for Matt.
+- FAQs now covered alongside hero/services/voice — full template system ready for first engagement.
+
+**Blockers:**
+- **Critical & growing:** 15 Gate 1 + 8 Gate 2 items pending owner decision. The Gate 2 backlog in particular is the bottleneck — 11 businesses (the Apr-10/12/16 batches, 3 of which are already sent) have personalized outreach sitting in the repo waiting to hit an inbox.
+- Yesterday's truncated run (rate limit) revealed a gap: Emily can draft outreach but Gate 2 queueing happens at a later pass, so a mid-run cap leaves drafts orphaned. Consider re-ordering so Gate 2 entry is written the same tool-call as the draft file.
+
+---
+
 ## 2026-04-15 — Wednesday
 
 **Kyle (PM):**

@@ -4,7 +4,13 @@
       "Skill(schedule)",
       "Bash(claude --version)",
       "Read(//Users/rylanibach/Library/LaunchAgents/**)",
-      "Bash(chmod +x ~/web-agency/ops/scripts/daily-all-hands.sh)"
+      "Bash(chmod +x ~/web-agency/ops/scripts/daily-all-hands.sh)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "WebSearch"
     ]
   }
 }

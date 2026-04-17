@@ -36,6 +36,14 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 - [X] GATE 1 | GJ Solutions Painting | Phoenix house painter — family-owned, Yelp-focused, minimal web presence. Pursue? | leads/pipeline.md
 - [X] GATE 1 | Starfix Appliance Repair | Phoenix appliance repair — Yelp listing only, no dedicated website. Pursue? | leads/pipeline.md
 
+- [ ] GATE 1 | Garcia's Handyman | Phoenix handyman — 20 yrs exp, bilingual, Yelp/BBB only, no website. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Handyman Protocol | Phoenix handyman — kitchen/bath remodel, Yelp/Thumbtack only, no website. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Able Handyman Services | Phoenix handyman — small op, Yelp-only (17 photos). Pursue? | leads/pipeline.md
+
+- [ ] GATE 1 | Phoenician Garage Door & Repair | Phoenix garage door contractor — est 2010, ROC-licensed, Yelp-only presence. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | J Window Cleaning | Gilbert window cleaner — family-owned, Yelp-only with phone only. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Taqueria1AZ | Scottsdale birria food truck — Yelp-only, no dedicated website. Pursue? | leads/pipeline.md
+
 <!-- Emily appends here -->
 
 ---
@@ -51,6 +59,15 @@ _Emily adds email drafts here. Owner approves before send. Follow-ups also queue
 - [X] GATE 2 | Cardinals Fencing | Outreach email draft — review, then send from personal Gmail | leads/outreach/cardinals-fencing-2026-04-12.md
 - [X] GATE 2 | Nikki's Mobile Grooming | Outreach email draft — review, then send from personal Gmail | leads/outreach/nikkis-mobile-grooming-2026-04-12.md
 - [X] GATE 2 | Midwest Concrete | Outreach email draft — review, then send from personal Gmail | leads/outreach/midwest-concrete-2026-04-12.md
+
+- [ ] GATE 2 | Big J's Mobile Detail | Outreach email draft — review, then send from personal Gmail | leads/outreach/big-js-mobile-detail-2026-04-16.md
+- [ ] GATE 2 | The Lightning Mobile Car Wash | Outreach email draft — review, then send from personal Gmail | leads/outreach/lightning-mobile-car-wash-2026-04-16.md
+- [ ] GATE 2 | Cam's Mobile Mechanic | Outreach email draft — review, then send from personal Gmail | leads/outreach/cams-mobile-mechanic-2026-04-16.md
+- [ ] GATE 2 | A's Pool Service and Repairs | Outreach email draft — review, then send from personal Gmail | leads/outreach/as-pool-service-2026-04-16.md
+- [ ] GATE 2 | LD Pressure Washing | Outreach email draft — review, then send from personal Gmail | leads/outreach/ld-pressure-washing-2026-04-16.md
+- [ ] GATE 2 | Foquito Electric | Outreach email draft — review, then send from personal Gmail | leads/outreach/foquito-electric-2026-04-16.md
+- [ ] GATE 2 | GJ Solutions Painting | Outreach email draft — review, then send from personal Gmail | leads/outreach/gj-solutions-painting-2026-04-16.md
+- [ ] GATE 2 | Starfix Appliance Repair | Outreach email draft — review, then send from personal Gmail | leads/outreach/starfix-appliance-repair-2026-04-16.md
 
 <!-- Emily appends here -->
 

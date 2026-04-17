@@ -27,22 +27,32 @@ Stages: New → Contacted → Qualified → Proposal → Active → Won / Lost /
 | J&M Handyman Services | Phoenix | Handyman | Yelp/HomeAdvisor only, 22 yrs experience, no dedicated site | Medium | New | — | — | Emily | 2026-04-12 | Locally owned, carpentry/drywall specialty |
 | Tacolicioso | Glendale | Restaurant / Food Truck | Yelp-focused, food truck / taco shop, minimal web presence | Medium | New | — | — | Emily | 2026-04-12 | Glendale food truck, listed on Yelp top tacos |
 | Japez Mobile Detailing | Scottsdale | Auto Detailing | No website — Yelp + Instagram only, no dedicated site | High | New | 1 | pending | Emily | 2026-04-14 | Top-rated on Yelp, 24/7 mobile service, (480) 865-5309 |
-| Big J's Mobile Detail | Phoenix | Auto Detailing | No dedicated website — Yelp listing only | High | New | 1 | pending | Emily | 2026-04-14 | Phoenix 85018, open Tue–Sat, (602) 214-1118 |
-| The Lightning Mobile Car Wash | Phoenix | Mobile Car Wash | No website — Yelp listing only, 5-star rating | High | New | 1 | pending | Emily | 2026-04-14 | Brings own equipment, (602) 299-0145 |
+| Big J's Mobile Detail | Phoenix | Auto Detailing | No dedicated website — Yelp listing only | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | Phoenix 85018, open Tue–Sat, (602) 214-1118 |
+| The Lightning Mobile Car Wash | Phoenix | Mobile Car Wash | No website — Yelp listing only, 5-star rating | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | Brings own equipment, (602) 299-0145 |
 | Andrew's Junk Removal Service | Phoenix | Junk Removal | Yelp-only presence, no dedicated website found | Medium | New | — | — | Emily | 2026-04-14 | Small local junk removal operation |
 | Junk Solutions | Phoenix | Junk Removal | Yelp listing with photos, minimal web presence | Medium | New | — | — | Emily | 2026-04-14 | Updated Apr 2026, 14 photos on Yelp |
 | ACE Mobile Wash | Phoenix | Car Wash / Detailing | Yelp listing only, no dedicated website found | Medium | New | — | — | Emily | 2026-04-14 | 5017 S 36th St, Mon–Sat, (602) 272-4442 |
 | Spotless Society | Phoenix | Home Cleaning | Yelp-focused, husband-and-wife team, minimal web presence | Medium | New | — | — | Emily | 2026-04-14 | Small family operation, serves Phoenix metro |
-| Cam's Mobile Mechanic | Phoenix | Auto Repair (Mobile) | Yelp-only listing, no dedicated website found | High | New | 1 | pending | Emily | 2026-04-14 | Mon–Fri 9–5, (602) 478-0251, Phoenix 85023 |
-| A's Pool Service and Repairs | Phoenix | Pool Service | Yelp-only presence, no dedicated website | High | New | 1 | pending | Emily | 2026-04-14 | 10+ yrs experience, pool cleaning/maintenance/repair |
-| LD Pressure Washing | Tempe | Pressure Washing | Yelp-only listing, no website found | High | New | 1 | pending | Emily | 2026-04-14 | Mon–Fri 7–5, serves Tempe area |
+| Cam's Mobile Mechanic | Phoenix | Auto Repair (Mobile) | Yelp-only listing, no dedicated website found | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | Mon–Fri 9–5, (602) 478-0251, Phoenix 85023 |
+| A's Pool Service and Repairs | Phoenix | Pool Service | Yelp-only presence, no dedicated website | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | 10+ yrs experience, pool cleaning/maintenance/repair |
+| LD Pressure Washing | Tempe | Pressure Washing | Yelp-only listing, no website found | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | Mon–Fri 7–5, serves Tempe area |
 | Shawn's Mobile Mechanic Service | Phoenix | Auto Repair (Mobile) | Yelp listing, minimal web presence | Medium | New | — | — | Emily | 2026-04-14 | 24/7 service, (623) 221-3292, 2425 S 24th St |
 | AZ Mobile Pool Service | Phoenix | Pool Service | Yelp listing, no dedicated website | Medium | New | — | — | Emily | 2026-04-14 | 4041 E Hartford Ave, (602) 595-4586 |
 | Tempe Power Washing | Tempe | Pressure Washing | Yelp-only listing, no website found | Medium | New | — | — | Emily | 2026-04-14 | Serves Tempe metro, Yelp reviews only |
 | Arizona Pressure Washing | Mesa | Pressure Washing | Yelp listing, minimal web presence | Medium | New | — | — | Emily | 2026-04-14 | Mon–Sun 8–6, (602) 783-0551 |
-| Foquito Electric | Mesa | Electrician | Yelp-only listing, no dedicated website found | High | New | 1 | pending | Emily | 2026-04-15 | Small local electrician, serves Mesa/Tempe/Chandler/Gilbert |
-| GJ Solutions Painting | Phoenix | House Painting | Yelp-focused, family-owned, minimal web presence | High | New | 1 | pending | Emily | 2026-04-15 | Family-owned, locally operated, serves Phoenix metro |
-| Starfix Appliance Repair | Phoenix | Appliance Repair | Yelp listing only, no dedicated website found | High | New | 1 | pending | Emily | 2026-04-15 | 200 W Monroe St, (602) 223-1312, same-day service |
+| Foquito Electric | Mesa | Electrician | Yelp-only listing, no dedicated website found | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | Small local electrician, serves Mesa/Tempe/Chandler/Gilbert |
+| GJ Solutions Painting | Phoenix | House Painting | Yelp-focused, family-owned, minimal web presence | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | Family-owned, locally operated, serves Phoenix metro |
+| Starfix Appliance Repair | Phoenix | Appliance Repair | Yelp listing only, no dedicated website found | High | Contacted | 2 | Outreach drafted (Gate 2 pending) | Emily | 2026-04-16 | 200 W Monroe St, (602) 223-1312, same-day service |
 | Hailey's Mobile Pet Spa | Phoenix | Pet Grooming (Mobile) | Yelp listing only, no dedicated website | Medium | New | — | — | Emily | 2026-04-15 | Phoenix 85254, (480) 392-3351, mobile groomer |
 | Furry Frenzy Mobile Pet Grooming | Phoenix | Pet Grooming (Mobile) | Yelp listing with 25 reviews, no dedicated website found | Medium | New | — | — | Emily | 2026-04-15 | Phoenix 85021, (480) 326-1786, 39 photos on Yelp |
 | Phoenix Mobile Groom | Mesa | Pet Grooming (Mobile) | Yelp-only listing, no dedicated website | Medium | New | — | — | Emily | 2026-04-15 | Serves Mesa area, Yelp listing only |
+| Phoenician Garage Door & Repair | Phoenix | Garage Door Repair | Yelp-only, no dedicated website found | High | New | 1 | pending | Emily | 2026-04-17 | Est 2010, AZ ROC #316471, full-service repair/install |
+| J Window Cleaning | Gilbert | Window Cleaning | Yelp-only, phone contact only, no website | High | New | 1 | pending | Emily | 2026-04-17 | Family-owned, (480) 810-4870, Gilbert area |
+| Taqueria1AZ | Scottsdale | Restaurant / Food Truck | Yelp-only, no dedicated website | High | New | 1 | pending | Emily | 2026-04-17 | Birria specialists, 7340 E McDowell Rd, (858) 888-1908 |
+| Today Garage Door Services | Phoenix | Garage Door Repair | No dedicated website, same-day Yelp-based ops | Medium | New | — | — | Emily | 2026-04-17 | (480) 256-9929, same-day service, residential |
+| Lumberjack's Taco Shack | Scottsdale | Restaurant / Food Truck | Yelp-focused, minimal dedicated web presence | Medium | New | — | — | Emily | 2026-04-17 | Sonoran-style street tacos, 4341 N 75th St, (480) 295-9992 |
+| Integrity Carpet And Tile Cleaning | Mesa | Carpet Cleaning | Yelp-only, solo operator, no website found | Medium | New | — | — | Emily | 2026-04-17 | 13 yrs experience, Mesa-based |
+| Window Works LLC | Gilbert | Window Cleaning | Yelp-focused, family-owned, minimal web presence | Medium | New | — | — | Emily | 2026-04-17 | Multi-award, insured, (602) 663-0257, Gilbert 85296 |
+| Arizona Locksmith | Phoenix | Locksmith | Yelp listing only, no dedicated website | Medium | New | — | — | Emily | 2026-04-17 | 24/7 mobile, (602) 344-9599, Phoenix 85014 |
+| Mario's Locksmith | Phoenix | Locksmith | Yelp-only, no dedicated website | Medium | New | — | — | Emily | 2026-04-17 | 6719 W Thomas Rd, (602) 696-2130, 24/7 mobile |
+| Domenic's 2 Wheelers | Tempe | Bike Shop | Minimal/outdated web presence, mom-and-pop | Medium | New | — | — | Emily | 2026-04-17 | Rural & Broadway, local gem, bike repair/sales |

@@ -8,6 +8,13 @@ set -u
 # Ensure claude and git are on PATH (launchd has a minimal PATH by default)
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 
+# API key for headless auth (doesn't expire like OAuth tokens)
+# Generate at: https://console.anthropic.com/settings/keys
+# Store your key in ~/.anthropic_key (one line, no quotes)
+if [ -f "$HOME/.anthropic_key" ]; then
+  export ANTHROPIC_API_KEY="$(cat "$HOME/.anthropic_key")"
+fi
+
 REPO="$HOME/web-agency"
 PROMPT_FILE="$REPO/ops/scripts/all-hands-prompt.md"
 LOG_DIR="$REPO/ops/logs"
