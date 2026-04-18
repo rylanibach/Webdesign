@@ -4,6 +4,42 @@ Format: one section per day, newest on top. Each teammate appends a 1–3 bullet
 
 ---
 
+## 2026-04-18 — Saturday
+
+**Kyle (PM):**
+- Morning orchestration: approval queue now carries **18 Gate 1 pending** (yesterday's 15 + 3 new from today) and **8 Gate 2 pending** (unchanged — the Apr-16 outreach batch is still sitting idle). The Gate 2 backlog is the critical blocker; 8 personalized emails are ready to send the moment owner says go.
+- No active clients yet, so the team continues reusable template/system work. Each teammate shipped one net-new artifact today that fills a gap (trust-signal placement, Cloudflare deploy, about-page copy, local citations) rather than padding existing docs.
+- Dispatched Emily → discovery (8 new leads across HVAC, plumbing, pest, flooring; 3 High queued) and SEO citations playbook. Dispatched Stevie → trust-signal placement guide. Dispatched Matt → Cloudflare Pages deploy playbook + Lighthouse CI config. Dispatched Raul → about-page copy template.
+- Saturday — no weekly review scheduled.
+
+**Stevie (Design):**
+- No active client engagements. Published `clients/_template/design/trust-signals.md` — maps the 8 Phoenix-specific trust signals (ROC #, years in biz, owner photo, service-area map, real GBP review snippets, credentials row, local phone, response-time promise) to page regions (hero, trust bar, services, about, pre-footer, footer).
+- Calls out anti-patterns (stock suits, fake review carousels, "family-owned since 1847" on a 2015 business) and per-industry emphasis. Pairs with `design-system.md` (tokens) and `mobile-first-phoenix-checklist.md` (UX).
+- Handoff hook documented: every mockup I ship will now cross-reference which data fields the client needs to supply vs. which we source from GBP.
+
+**Matt (Dev):**
+- No active client builds. Published `clients/_template/dev/deploy-cloudflare-pages.md` — full flow from `npm create astro` through custom-domain cutover, plus a non-negotiable performance budget (LCP ≤ 2s, CLS ≤ 0.05, JS ≤ 50KB gzipped) enforced via a `.lighthouserc.json` and a GitHub Action that fails PRs that blow budget.
+- Covers Formspree + Turnstile wiring, preview-per-PR workflow, DNS cutover (client keeps ownership — we never hold the domain hostage), rollback via Cloudflare dashboard, and a week-1 post-launch monitoring checklist.
+- Template dev stack is now genuinely complete: Astro starter → Tailwind components → SEO pack → pre-launch checklist → deploy playbook. Zero scaffolding work blocking the first client build.
+
+**Emily (Growth):**
+- Lead discovery: **8 new leads** across fresh verticals (pest control, plumbing, HVAC, flooring) — industries not yet represented in the pipeline.
+  - **3 High queued as Gate 1:** West Coast Pest Control (Phoenix), Urban Desert Pest Control (Phoenix), Plumber of Phoenix (Phoenix).
+  - **5 Medium:** Bird Dog Plumbing (Phoenix), Cool Zone Air Conditioning (Phoenix, family-owned since 2006), Paul's Pest & Termite Control (Phoenix), Floor One (Mesa), Floor Daddy (Tempe).
+- **No new outreach drafts** — no Gate 1 approvals have come through since yesterday's run. The 8 Apr-16 drafts are still pending owner review.
+- SEO: published `ops/playbooks/phoenix-local-citations.md` — 4-tier Phoenix-specific citation submission list (Tier 1: GBP/Apple/Bing/Yelp/BBB/Nextdoor; Tier 2: Angi/HomeAdvisor/Thumbtack/Houzz/Porch/Networx/AZ ROC; Tier 3: Phoenix-specific including city-level chambers; Tier 4: by vertical). Includes NAP audit cadence and a review-acceleration sub-playbook targeting 10+ GBP reviews in first 30 days.
+
+**Raul (Content):**
+- No active client copy. Published `assets/about-page-copy-template.md` — 5-section skeleton (hero, story, principles, proof, CTA) with Phoenix-local voice rules, anti-patterns (dead corporate language we strike), and per-section copy archetypes.
+- Includes a handoff hook: each About page now ships with a specific image brief for Stevie + a stat list the client must supply + JSON-LD founder fields for Matt's `LocalBusiness` schema.
+- Reusable copy library is now: voice guide + services page + FAQ + about page. Hero/homepage template is the last page-level gap — queued for next template day.
+
+**Blockers:**
+- **Critical and growing:** 18 Gate 1 + 8 Gate 2 items pending owner decision. The Gate 2 backlog is the real bottleneck — 8 businesses have personalized outreach sitting in the repo that could hit inboxes today. Every day of delay erodes the "we just found you" freshness of the observation lines.
+- No active clients — team is building reusable tooling at a healthy clip but without a live engagement we're shipping against theoretical needs. Priority should be closing the loop on Gate 2 so we get first replies flowing.
+
+---
+
 ## 2026-04-17 — Friday
 
 **Kyle (PM):**

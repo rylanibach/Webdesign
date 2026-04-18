@@ -44,6 +44,10 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 - [ ] GATE 1 | J Window Cleaning | Gilbert window cleaner — family-owned, Yelp-only with phone only. Pursue? | leads/pipeline.md
 - [ ] GATE 1 | Taqueria1AZ | Scottsdale birria food truck — Yelp-only, no dedicated website. Pursue? | leads/pipeline.md
 
+- [ ] GATE 1 | West Coast Pest Control | Phoenix pest control — Yelp-only, small independent operator. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Urban Desert Pest Control | Phoenix pest control — Yelp-only, Phoenix-local branding. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Plumber of Phoenix | Phoenix plumber — Yelp-only, 10 reviews, 3702 E Roeser Rd. Pursue? | leads/pipeline.md
+
 <!-- Emily appends here -->
 
 ---

@@ -56,3 +56,11 @@ Stages: New → Contacted → Qualified → Proposal → Active → Won / Lost /
 | Arizona Locksmith | Phoenix | Locksmith | Yelp listing only, no dedicated website | Medium | New | — | — | Emily | 2026-04-17 | 24/7 mobile, (602) 344-9599, Phoenix 85014 |
 | Mario's Locksmith | Phoenix | Locksmith | Yelp-only, no dedicated website | Medium | New | — | — | Emily | 2026-04-17 | 6719 W Thomas Rd, (602) 696-2130, 24/7 mobile |
 | Domenic's 2 Wheelers | Tempe | Bike Shop | Minimal/outdated web presence, mom-and-pop | Medium | New | — | — | Emily | 2026-04-17 | Rural & Broadway, local gem, bike repair/sales |
+| West Coast Pest Control | Phoenix | Pest Control | Yelp-only listing, no dedicated website found | High | New | 1 | pending | Emily | 2026-04-18 | Small independent operator, Phoenix metro |
+| Urban Desert Pest Control | Phoenix | Pest Control | Yelp-only listing, no dedicated website found | High | New | 1 | pending | Emily | 2026-04-18 | Desert-themed branding, Phoenix-local, small op |
+| Plumber of Phoenix | Phoenix | Plumbing | Yelp-only — 10 reviews, 3702 E Roeser Rd | High | New | 1 | pending | Emily | 2026-04-18 | Small independent plumber, residential focus |
+| Bird Dog Plumbing | Phoenix | Plumbing | Yelp-focused, minimal dedicated web presence | Medium | New | — | — | Emily | 2026-04-18 | Small plumbing op, Phoenix metro |
+| Cool Zone Air Conditioning and Heating | Phoenix | HVAC | Yelp-focused, family-owned since 2006, minimal website | Medium | New | — | — | Emily | 2026-04-18 | Family-owned HVAC, est 2006 |
+| Paul's Pest & Termite Control | Phoenix | Pest Control | Yelp listing, small family-owned op | Medium | New | — | — | Emily | 2026-04-18 | Small operator, Phoenix |
+| Floor One | Mesa | Flooring | Yelp-only, no dedicated website found | Medium | New | — | — | Emily | 2026-04-18 | Mesa-based flooring contractor |
+| Floor Daddy | Tempe | Flooring | Yelp-only, no dedicated website | Medium | New | — | — | Emily | 2026-04-18 | Tempe-based, small flooring op |

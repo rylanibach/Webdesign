@@ -118,3 +118,34 @@ From https://github.com/rylanibach/Webdesign
 From https://github.com/rylanibach/Webdesign
  * branch            main       -> FETCH_HEAD
 Already up to date.
+## Daily All-Hands Summary — 2026-04-17 (Friday)
+
+**Files changed:** 23 (13 new, 10 modified)
+**New leads added:** 10 (3 High, 7 Medium)
+**Gate 1 items queued:** 6 new (3 new-industry + 3 back-filled handymen from Apr-12)
+**Gate 2 outreach drafts ready for review:** 8 (the Apr-16 batch finally queued)
+**Commit pushed:** `2b32916` → `origin/main`
+
+**Blockers for the owner:**
+- **15 Gate 1 pending + 8 Gate 2 pending** in `ops/approvals/queue.md`. The Gate 2 bottleneck is the biggest one — 8 personalized outreach emails are sitting in the repo with nobody receiving them. Every day of delay decays the research/relevance.
+- Yesterday's run hit the Claude usage cap mid-pass (09:02 AZ time) and couldn't queue the Gate 2 entries it had drafted — fixed today. Next week's focus item for Kyle: re-order Emily's steps so Gate 2 entry gets written in the same batch as the draft to prevent orphaning on future mid-run caps.
+- Contact emails still unknown for most leads. Emily is relying on Yelp message / phone. Need a structured email-sourcing step.
+
+Sources used for lead discovery:
+- [Phoenix AZ roofing / garage door — Yelp](https://www.yelp.com/search?find_desc=Garage+Door+Repair&find_loc=Phoenix,+AZ)
+- [Scottsdale taco trucks — Yelp](https://www.yelp.com/search?find_desc=Taco+Truck&find_loc=Scottsdale,+AZ)
+- [Gilbert window cleaning — Yelp](https://www.yelp.com/search?cflt=windowwashing&find_loc=Gilbert,+AZ)
+- [Mesa carpet cleaners — Yelp](https://www.yelp.com/search?cflt=carpet_cleaning&find_loc=Mesa,+AZ)
+- [Phoenix locksmith 24hr — Yelp](https://www.yelp.com/search?find_desc=Locksmith+24+Hour&find_loc=Phoenix,+AZ)
+- [Tempe bike shops — Fresh Chalk](https://freshchalk.com/b/tempe-az/bike-shops)
+
+=== Daily All-Hands run finished at Fri Apr 17 09:38:02 MST 2026 (exit 0) ===
+
+=== Email delivery ===
+{"id":"5bccbe32-e242-4f72-9704-83f55ccaa51d"}
+=== Daily All-Hands run started at Sat Apr 18 09:35:10 MST 2026 ===
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+From https://github.com/rylanibach/Webdesign
+ * branch            main       -> FETCH_HEAD
+Already up to date.
