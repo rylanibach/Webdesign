@@ -48,6 +48,10 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 - [X] GATE 1 | Urban Desert Pest Control | Phoenix pest control — Yelp-only, Phoenix-local branding. Pursue? | leads/pipeline.md
 - [X] GATE 1 | Plumber of Phoenix | Phoenix plumber — Yelp-only, 10 reviews, 3702 E Roeser Rd. Pursue? | leads/pipeline.md
 
+- [ ] GATE 1 | Arizona Mobile Notary Services | Phoenix mobile notary — Maricopa County, Yelp-only, (602) 909-7029. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Jr's One Stop Mobile Notary Services | Phoenix 24-hour mobile notary — Yelp-only, apostille + fingerprinting. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Tip Top Roofing Service | Phoenix roofer — small op, Yelp-surfaced, no dedicated site. Pursue? | leads/pipeline.md
+
 <!-- Emily appends here -->
 
 ---
@@ -72,6 +76,17 @@ _Emily adds email drafts here. Owner approves before send. Follow-ups also queue
 - [X] GATE 2 | Foquito Electric | Outreach email draft — review, then send from personal Gmail | leads/outreach/foquito-electric-2026-04-16.md
 - [X] GATE 2 | GJ Solutions Painting | Outreach email draft — review, then send from personal Gmail | leads/outreach/gj-solutions-painting-2026-04-16.md
 - [X] GATE 2 | Starfix Appliance Repair | Outreach email draft — review, then send from personal Gmail | leads/outreach/starfix-appliance-repair-2026-04-16.md
+
+- [ ] GATE 2 | Japez Mobile Detailing | Outreach email draft — review, then send from personal Gmail | leads/outreach/japez-mobile-detailing-2026-04-19.md
+- [ ] GATE 2 | Garcia's Handyman | Outreach email draft — review, then send from personal Gmail | leads/outreach/garcias-handyman-2026-04-19.md
+- [ ] GATE 2 | Handyman Protocol | Outreach email draft — review, then send from personal Gmail | leads/outreach/handyman-protocol-2026-04-19.md
+- [ ] GATE 2 | Able Handyman Services | Outreach email draft — review, then send from personal Gmail | leads/outreach/able-handyman-services-2026-04-19.md
+- [ ] GATE 2 | Phoenician Garage Door & Repair | Outreach email draft — review, then send from personal Gmail | leads/outreach/phoenician-garage-door-2026-04-19.md
+- [ ] GATE 2 | J Window Cleaning | Outreach email draft — review, then send from personal Gmail | leads/outreach/j-window-cleaning-2026-04-19.md
+- [ ] GATE 2 | Taqueria1AZ | Outreach email draft — review, then send from personal Gmail | leads/outreach/taqueria1az-2026-04-19.md
+- [ ] GATE 2 | West Coast Pest Control | Outreach email draft — review, then send from personal Gmail | leads/outreach/west-coast-pest-control-2026-04-19.md
+- [ ] GATE 2 | Urban Desert Pest Control | Outreach email draft — review, then send from personal Gmail | leads/outreach/urban-desert-pest-control-2026-04-19.md
+- [ ] GATE 2 | Plumber of Phoenix | Outreach email draft — review, then send from personal Gmail | leads/outreach/plumber-of-phoenix-2026-04-19.md
 
 <!-- Emily appends here -->
 

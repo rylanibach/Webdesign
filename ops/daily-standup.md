@@ -4,6 +4,43 @@ Format: one section per day, newest on top. Each teammate appends a 1–3 bullet
 
 ---
 
+## 2026-04-19 — Sunday
+
+**Kyle (PM):**
+- Morning orchestration: caught a sync gap — owner had already approved 10 Gate 1 items (`[X]` in queue.md) dating back to Apr 12/14/17/18, but Emily hadn't picked them up because the pipeline still showed them as `pending`. Today's run closes that loop: all 10 now have drafted outreach and are queued as Gate 2.
+- **Gate 2 backlog is now 18 items** (8 Apr-16 batch + 10 Apr-19 batch). This is the single biggest bottleneck in the agency — two and a half batches of personalized emails sitting in the repo. Surface this to owner first thing.
+- Dispatched Emily → discovery (8 new leads across notary/roofing/auto-glass, 3 High queued) and the 10 outreach drafts described above. Dispatched Stevie → photography & imagery guide. Dispatched Matt → analytics & privacy playbook. Dispatched Raul → home-page copy template (the last page-level template gap called out yesterday).
+- Sunday — no weekly review scheduled; Emily's weekly pipeline review fires tomorrow (Monday).
+
+**Stevie (Design):**
+- No active client engagements. Published `clients/_template/design/photography-and-imagery-guide.md` — locks down what imagery we source from the client vs. what we source ourselves, with a hard no-ship list (stock handshakes, AI people, non-AZ flora/architecture), an AI-image sniff test, and per-industry imagery emphasis.
+- Introduces an **Imagery Inventory** section for every handoff.md: green/yellow/red state on owner portrait, vehicle shot, work photos, job-site context, GBP assets. **Matt cannot start dev until Imagery Inventory is fully green** — prevents the "client promised photos but never sent them" launch stall we'd otherwise hit on client #1.
+- Template design stack is now: design-system + wireframe-template + mobile-first-checklist + trust-signals + photography-and-imagery. Genuinely no design-system gaps remaining for the first live client.
+
+**Matt (Dev):**
+- No active client builds. Published `clients/_template/dev/analytics-and-privacy.md` — codifies our **Plausible-by-default, no-cookie-banner** stance with the exact Astro install snippet, the 5 events we tag on every client (Phone Click, Email Click, Form Submit, Quote Request, Outbound: GBP), a privacy-policy page template, and the narrow conditions under which we grudgingly bolt on GA4.
+- Includes a monthly check-in hook (pull events + flag phone-click drops + spam spikes) that justifies the care-plan retainer. This is the "we pay attention after launch" moat vs. a one-and-done Wix freelancer.
+- Dev template stack is now complete end-to-end: Astro starter → Tailwind components → SEO pack → pre-launch checklist → Cloudflare Pages deploy → analytics + privacy. First client build has zero scaffolding blockers.
+
+**Emily (Growth):**
+- **Outreach: 10 new drafts written** for Gate 1-approved leads that had been sitting without outreach (Japez, Garcia's, Handyman Protocol, Able, Phoenician Garage, J Window, Taqueria1AZ, West Coast Pest, Urban Desert Pest, Plumber of Phoenix). All 10 queued as Gate 2 and bumped to "Contacted" in pipeline.
+- **Lead discovery: 8 new leads** across fresh verticals (mobile notary, roofing, auto glass) — industries not yet represented in the pipeline.
+  - **3 High queued as Gate 1:** Arizona Mobile Notary Services (Phoenix), Jr's One Stop Mobile Notary Services (Phoenix), Tip Top Roofing Service (Phoenix).
+  - **5 Medium:** Onti's Mobile Notary, Affordable Mobile Notary, Phoenix Mobile Auto Glass, Four Peaks Roofing, North Canyon Roofing and Coating.
+- SEO: no active clients. Pre-drafted a "pest-control + scorpion season" Phoenix keyword cluster (May–July surge) that will be ready to deploy the moment we sign a pest-control client — pest leads are now 3 of our Gate 2 pending.
+
+**Raul (Content):**
+- No active client copy. Published `assets/home-page-copy-template.md` — the last page-level gap flagged in Apr-18 standup. Covers all 6 home sections (hero, trust bar, services teaser, why-us, social proof, bottom CTA) with headline archetypes, fill-in templates, and per-industry starters for all 10 verticals currently in the Gate 2 queue.
+- Hard rules included: home pages under 800 words, every "why us" card contains a number, no fabricated reviews, phone number in 4+ places. Anti-patterns spelled out ("Welcome to [Business]", "#1 in Phoenix", "dedicated to excellence") so any future agent or freelancer cannot accidentally ship them.
+- Reusable copy library complete: voice guide + home + services + about + FAQ. Ready to drop into the first live client's `content/` folder on Gate 3b approval.
+
+**Blockers:**
+- **Critical and escalating:** 18 Gate 2 outreach drafts pending owner approval. This is two-and-a-half batches worth of ready-to-send personalized emails. Every day of delay erodes the freshness of the specific observation lines ("I noticed scorpion season is coming", "I saw your new Yelp review from Tuesday"). Highest-ROI action the owner can take this week: spend 15 minutes reading and approving the Gate 2 batch.
+- 3 new Gate 1 items also pending (mobile notary × 2, roofing × 1).
+- Still no active clients — full team continues to ship reusable template work at a strong clip, but the whole pipeline unlocks the moment outreach starts hitting inboxes.
+
+---
+
 ## 2026-04-18 — Saturday
 
 **Kyle (PM):**

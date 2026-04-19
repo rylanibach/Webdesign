@@ -4,3 +4,29 @@ From https://github.com/rylanibach/Webdesign
 From https://github.com/rylanibach/Webdesign
  * branch            main       -> FETCH_HEAD
 Already up to date.
+## Daily all-hands — 2026-04-18 complete
+
+**Pushed:** `8d26a10` to `origin/main`
+
+**Files changed:** 11 (5 new, 6 modified) — 575 insertions
+
+**New leads added:** 8 (3 High, 5 Medium) across fresh verticals — pest control, plumbing, HVAC, flooring
+
+**Gate 1 items queued:** 3 — West Coast Pest Control, Urban Desert Pest Control, Plumber of Phoenix
+
+**Gate 2 outreach drafts ready for review:** 0 new today (8 carried over from Apr-16 batch, still pending)
+
+**New reusable artifacts:**
+- `clients/_template/design/trust-signals.md` (Stevie)
+- `clients/_template/dev/deploy-cloudflare-pages.md` (Matt)
+- `assets/about-page-copy-template.md` (Raul)
+- `ops/playbooks/phoenix-local-citations.md` (Emily SEO)
+
+**Blockers for owner:**
+- **18 Gate 1 + 8 Gate 2 pending decisions** in `ops/approvals/queue.md` — the Gate 2 backlog (8 personalized emails ready to send) is the real bottleneck. Every day of delay erodes freshness of the observation lines.
+- Git committer identity is unset — commits record `Rylan Ibach <rylanibach@Rylans-MacBook-Air.local>`. Low priority, but run `git config --global user.email rylanibach@gmail.com` whenever convenient.
+
+=== Daily All-Hands run finished at Sat Apr 18 10:35:50 MST 2026 (exit 0) ===
+
+=== Email delivery ===
+{"id":"4e133f43-3158-477f-9da9-d63777dd1aa1"}
