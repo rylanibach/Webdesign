@@ -72,3 +72,9 @@ Stages: New → Contacted → Qualified → Proposal → Active → Won / Lost /
 | Paul's Pest & Termite Control | Phoenix | Pest Control | Yelp listing, small family-owned op | Medium | New | — | — | Emily | 2026-04-18 | Small operator, Phoenix |
 | Floor One | Mesa | Flooring | Yelp-only, no dedicated website found | Medium | New | — | — | Emily | 2026-04-18 | Mesa-based flooring contractor |
 | Floor Daddy | Tempe | Flooring | Yelp-only, no dedicated website | Medium | New | — | — | Emily | 2026-04-18 | Tempe-based, small flooring op |
+| Pamper Yourself Massage | Phoenix | Massage Therapy | Yelp-only listing, no dedicated website | High | New | 1 | pending | Emily | 2026-04-24 | 2710 W Thomas Rd 85017, independent massage studio |
+| Sterling Interstate | Phoenix | Moving / Local Movers | Text/phone only, no website | High | New | 1 | pending | Emily | 2026-04-24 | Locally-owned small mover, (602) 643-9022 |
+| AZ Barber & Salon | Phoenix | Barber / Men's Salon | Yelp-only (134 photos), no dedicated website | High | New | 1 | pending | Emily | 2026-04-24 | 1838 W Bell Rd, men's hair salon, small independent |
+| Pikasso Barber Shop | Phoenix | Barber | Yelp-focused, minimal web presence | Medium | New | — | — | Emily | 2026-04-24 | Hot towel shaves + massage included |
+| Clean Cut Barber Shop | Phoenix | Barber | Yelp-focused, small independent | Medium | New | — | — | Emily | 2026-04-24 | Scalp massage + hot towel cut included |
+| Classic BarberShop | Phoenix | Barber | Yelp-focused, independent | Medium | New | — | — | Emily | 2026-04-24 | Small independent barber, back massage option |

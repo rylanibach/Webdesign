@@ -8,3 +8,18 @@ Updating 8d26a10..7b61c25
 Fast-forward
  ops/approvals/queue.md | 36 ++++++++++++++++++------------------
  1 file changed, 18 insertions(+), 18 deletions(-)
+## Daily all-hands summary — 2026-04-19 (Sunday)
+
+- **Files changed:** 20 (13 new, 7 modified)
+- **New leads added:** 8 (3 High, 5 Medium — notary / roofing / auto-glass verticals)
+- **Gate 1 items queued:** 3 (Arizona Mobile Notary, Jr's One Stop Mobile Notary, Tip Top Roofing)
+- **Gate 2 outreach drafts ready for review:** 10 new today → **Gate 2 backlog now 18 total** (plus 8 from Apr-16 batch)
+- **Blockers for owner:** Gate 2 backlog is the single biggest bottleneck — 18 personalized emails sitting idle. 15 minutes of your time approving them unlocks the first client replies.
+- **Commit:** `7b45b25` pushed to `origin/main`
+
+Key catch today: queue.md had 10 Gate 1 items already marked `[X]` (approved) dating back to Apr-12, but pipeline still showed them `pending` and Emily hadn't picked them up for drafting. That sync gap is now closed — all 10 have outreach drafts and are queued as Gate 2.
+
+=== Daily All-Hands run finished at Sun Apr 19 10:49:00 MST 2026 (exit 0) ===
+
+=== Email delivery ===
+{"id":"22f9847a-b3a0-4b98-9e3d-730ccf3aa336"}

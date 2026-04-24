@@ -4,6 +4,55 @@ Written by Kyle every Friday 16:00 PT.
 
 ---
 
+## Week of 2026-04-20
+
+**Wins:**
+- Cleared the four carry-over items from last Friday's "next week's focus" list, despite a 4-day automation blackout: `ops/scripts/new-client.sh` scaffold script (Matt), `clients/_template/design/fastest-path-wireframe-kit.md` (Stevie), `ops/playbooks/contact-email-sourcing.md` (Emily), and `assets/agency/{about,pricing}.md` (Raul). Our own agency site now has production-ready copy, and a first-client scaffold takes ~10 seconds.
+- Pipeline grew from 39 → 45 leads despite only one active run this week. 3 new verticals added (massage, moving, barber) that weren't represented before.
+- Template system is **genuinely launch-complete**. After this week, there is no template/playbook gap left that would block first-client onboarding. Every remaining blocker is owner-side or pipeline-side.
+
+**Misses / blockers:**
+- **All-hands automation blackout Apr 20–23.** 4 consecutive days failed to Claude usage cap (see `ops/logs/all-hands-2026-04-20.log` through `all-hands-2026-04-23.log`). Monday's weekly-pipeline-review never ran. Owner got daily emails but the logs showed exit-1 — we should make that signal louder.
+- **Owner-side backlog unmoved all week.** 3 Gate 1 + 10 Gate 2 items now 5 days old. The Apr-19 outreach batch had observation lines like "I noticed your Yelp review from Tuesday" — that line is now false and those emails need a light edit before send if they go out Monday.
+- **Still zero replies received** on the 5 sent outreach emails (Jimenez/Escalona/Osvaldo/Pavers/Kargo batch from 2+ weeks ago). Per the follow-up sequence in `ops/playbooks/outreach-sequence.md`, they're past the +4d follow-up window and into +10d territory. We need to either (a) queue follow-up emails or (b) accept them as Stale.
+- **Still no active clients.** The entire pipeline is stalled on the Gate 2 approval queue. This is the only thing blocking the first-client launch.
+
+**Pipeline (Emily):**
+- Total leads: 45 (up from 39 last week)
+- Scored: 21 High, 23 Medium, 1 Low
+- Gate 1 approved: 24 (unchanged from last week — no new approvals landed)
+- Gate 1 pending: 6 (3 Apr-19 + 3 Apr-24 — notary/roofing/massage/moving/barber)
+- Gate 2 approved + sent: 8 (unchanged)
+- Gate 2 pending: 10 (unchanged — the Apr-19 batch, now 5 days old)
+- Qualified / Proposal / Won / Lost / Stale: 0 / 0 / 0 / 0 / 0
+- Industries covered: 30+ (added: massage, moving, barber)
+- **Forecast:** if owner clears the 10 pending Gate 2 emails Monday morning, they go out Monday PM with light freshness edits. At ~20% response rate we'd expect 1–2 qualified conversations by end of next week. Zero replies on the original 5 sent emails is a real signal — may indicate we need to also revise the Gate 2 Tuesday batch before sending, not just approve and send as-drafted.
+
+**Engineering (Matt):**
+- Delivered the carry-over: `ops/scripts/new-client.sh` — parameterized scaffold, placeholder substitution, validation, dry-run, cleanup-on-abort. Tested against `_template/` end-to-end; emits Kyle's next-steps checklist.
+- No other engineering work this week (4-day automation blackout + no active clients).
+- Template dev stack unchanged: Astro starter + Tailwind lib + SEO pack + pre-launch + deploy + analytics/privacy + scaffold script. Nothing to add.
+
+**Design (Stevie):**
+- Delivered the carry-over: `clients/_template/design/fastest-path-wireframe-kit.md` — 4 variants (Trades, Services, Food, Retail) with per-block copy/component mappings and a per-industry match table. Every Gate-2-pending lead now has a named starting variant.
+- No other design work (4-day blackout + no active clients).
+- Design-system coverage is complete. Next design work will be a real client wireframe.
+
+**Content (Raul):**
+- Delivered the carry-over: `assets/agency/about.md` and `assets/agency/pricing.md` — our own site copy. About uses the three-gate process as a differentiator. Pricing page commits to three fixed prices (Starter $2,500, Standard $4,500, Full Rebuild $8,500 + $125/mo care) and publishes the full anti-lock-in clause.
+- Note: this is the web-page copy version, separate from the internal sales sheet in `assets/pricing/packages.md` which has all add-ons, bundles, and payment terms. The public page stays simpler.
+- Reusable copy library complete for clients AND agency self-copy. No gaps.
+
+**Next week's focus:**
+- **Owner:** **This is the highest-ROI action of the quarter.** Spend 45 minutes Monday morning reading and approving the 10 Gate 2 drafts. Every day further is 24 more hours of decay on the research specificity — after today, most drafts need a light freshness edit anyway, so the optimal move is: approve Monday, Emily re-reads for staleness before send, emails go out Tuesday.
+- **Owner:** Also clear the 6 Gate 1 items (3 notary/roofing from Apr-19, 3 massage/moving/barber from Apr-24) in the same sitting.
+- **Emily:** Before sending the Gate 2 batch Tuesday, do a freshness pass — any "I just saw" / "I noticed your recent" lines get updated or cut. Then queue +4d follow-up drafts for the original 5 sent emails (Jimenez/Escalona/Osvaldo/Pavers/Kargo) since they're now at +14d with zero reply.
+- **Emily:** Apply the new `contact-email-sourcing.md` playbook to the Gate 2 batch — before send, attempt to find personal-owner emails for each of the 10 drafted leads. Even upgrading half of them from Yelp PM to personal email should materially lift response rate.
+- **Stevie / Matt / Raul:** Standing by for first client engagement. If none lands next week, do NOT pad templates — instead pair with Emily on a "proof page" rendering of 2-3 mock client sites so our Work section isn't empty when a prospect visits.
+- **Kyle:** Harden the all-hands automation — this week's 4-day blackout was invisible until Friday. Add a daily check that emails the owner with a **visible WARNING subject** when the cron exits non-zero (vs. the current success email pattern, which is identical regardless of exit code). Also look at whether we can retry against a different account/key when rate-limited.
+
+---
+
 ## Week of 2026-04-13
 
 **Wins:**

@@ -4,6 +4,44 @@ Format: one section per day, newest on top. Each teammate appends a 1–3 bullet
 
 ---
 
+## 2026-04-24 — Friday
+
+**Kyle (PM):**
+- Morning orchestration: **we missed 4 runs** (Apr 20–23 — Claude usage cap; see `ops/logs/`). Queue state is frozen from Apr-19: **3 Gate 1 pending** (mobile notary × 2, roofing × 1) and **10 Gate 2 pending** (the full Apr-19 batch). Zero owner decisions landed this week. Fourth bullet of my blockers section below is the honest read.
+- Today we ship the four carry-over items flagged as "next week's focus" in the Apr-17 weekly review, because nothing else has moved: Matt → `new-client.sh` scaffold script, Stevie → fastest-path wireframe kit, Raul → agency's own About + Pricing copy, Emily → direct-email sourcing playbook. These are the last template/ops gaps before first client.
+- Dispatched Emily → discovery (6 new leads in fresh verticals: massage, moving, barber). 3 High queued as Gate 1. Drafted zero new outreach — no newly-approved Gate 1 leads to draft against.
+- Friday — weekly review written to `ops/weekly-review.md`.
+
+**Stevie (Design):**
+- Published `clients/_template/design/fastest-path-wireframe-kit.md` — 4 pre-built wireframe variants (Trades, Services, Food, Retail) mapped to Raul's copy templates + Matt's Tailwind components. Goal: client-yes → Gate 3a in ≤2 hours instead of 6. Each variant names specific hero archetype, trust-bar layout, services grid shape, and CTA band spec.
+- Explicit industry-matching table: every lead currently in Gate 2 (handyman, detailing, pool, pressure washing, electrical, painting, appliance, garage door, window, food truck, pest, plumbing, notary, roofing) now has a named starting variant.
+- No active clients. Design-system coverage is now genuinely launch-complete.
+
+**Matt (Dev):**
+- Published `ops/scripts/new-client.sh` — one-command client scaffold. Runs `cp -r clients/_template clients/<slug>`, renames placeholders (`{{CLIENT}}`, `{{CLIENT_SLUG}}`, `{{CITY}}`, `{{INDUSTRY}}`, `{{PHONE}}`), creates a `comms/kickoff.md` stub, and prints the next-step checklist (dispatch Stevie, add business.ts, populate imagery inventory).
+- Ships with `--dry-run` and `--force` flags, input validation (slug must be kebab-case), and cleanup on abort (no half-scaffolded client folders if the script exits mid-run). Tested against `_template/`.
+- Shaves ~30 min off every Gate 3b dispatch. First live client can be scaffolded in ~10 seconds.
+
+**Emily (Growth):**
+- Published `ops/playbooks/contact-email-sourcing.md` — structured 5-tier lookup (domain WHOIS → GBP website owner contact → Yelp message → ROC/BBB registrant → LinkedIn Sales Nav pattern). Ownership-matching heuristic for distinguishing `info@` (skip) vs personal-owner emails (target). Captures the exact gap called out in last Friday's review — we're currently sending via Yelp PM because we don't have emails.
+- **Lead discovery: 6 new leads** in 3 fresh verticals (massage, moving, barber). None of these verticals were in the pipeline before today.
+  - **3 High queued as Gate 1:** Pamper Yourself Massage (Phoenix), Sterling Interstate Moving (Phoenix), AZ Barber & Salon (Phoenix).
+  - **3 Medium:** Pikasso Barber Shop, Clean Cut Barber Shop, Classic BarberShop.
+- **No new outreach drafts** — no Gate 1 approvals have landed since Apr-19. 10 Gate 2 drafts are still sitting, now 5 days old. Approach the owner review with this context: the freshness of observations ("I noticed your new Yelp review from Tuesday") decays fast.
+- SEO: no active clients. Pre-drafted a "monsoon season preparedness" Phoenix keyword cluster (June–Sept roofing/pest/HVAC surge) — will deploy to any signed client in those verticals.
+
+**Raul (Content):**
+- Published `assets/agency/about.md` and `assets/agency/pricing.md` — our own site copy, closing last Friday's flagged gap. About page uses the "built for Phoenix small businesses" positioning, names the 3-gate review process as a feature (client knows what they're approving), and lists actual work from the current pipeline for proof.
+- Pricing page commits to 3 packages (Starter $2,500, Standard $4,500, Care plan $125/mo) with scope fences and a line explaining we never lock the domain — explicit anti-Wix-trap language.
+- Reusable copy library is complete for clients AND us. No copy gaps remaining.
+
+**Blockers:**
+- **Critical and aging:** 10 Gate 2 outreach drafts now 5 days old, 3 Gate 1 items 5 days old. Nothing moved Apr 20–23. Email freshness is eroding — the Apr-19 batch has observation lines like "I just saw your Yelp review from yesterday" that now read as 5 days stale.
+- All-hands automation failed 4 days straight (Apr 20–23) due to Claude usage cap. Runs recovering today. Consider: the automation should fail louder when it can't push, so the owner notices within a day rather than a week.
+- No active clients. Entire pipeline is still gated on owner decisions that stalled this week.
+
+---
+
 ## 2026-04-19 — Sunday
 
 **Kyle (PM):**

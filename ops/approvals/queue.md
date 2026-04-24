@@ -52,6 +52,10 @@ _Emily adds leads here after scoring. Owner decides: pursue or skip._
 - [ ] GATE 1 | Jr's One Stop Mobile Notary Services | Phoenix 24-hour mobile notary — Yelp-only, apostille + fingerprinting. Pursue? | leads/pipeline.md
 - [ ] GATE 1 | Tip Top Roofing Service | Phoenix roofer — small op, Yelp-surfaced, no dedicated site. Pursue? | leads/pipeline.md
 
+- [ ] GATE 1 | Pamper Yourself Massage | Phoenix independent massage studio — Yelp-only, 2710 W Thomas Rd. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | Sterling Interstate | Phoenix small mover — text/phone only, no website, (602) 643-9022. Pursue? | leads/pipeline.md
+- [ ] GATE 1 | AZ Barber & Salon | Phoenix men's barber/salon — Yelp-only (134 photos), 1838 W Bell Rd. Pursue? | leads/pipeline.md
+
 <!-- Emily appends here -->
 
 ---
