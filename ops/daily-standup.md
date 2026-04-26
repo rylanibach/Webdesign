@@ -4,6 +4,48 @@ Format: one section per day, newest on top. Each teammate appends a 1–3 bullet
 
 ---
 
+## 2026-04-26 — Sunday
+
+**Kyle (PM):**
+- Morning orchestration: queue state going into today — **6 Gate 1 pending** (3 from Apr-19 now 7 days old: Arizona Mobile Notary, Jr's One Stop Mobile Notary, Tip Top Roofing; 3 from Apr-24 now 2 days old: Pamper Yourself Massage, Sterling Interstate, AZ Barber & Salon) and **10 Gate 2 outreach drafts now 7 days old** (Japez, Garcia's, Handyman Protocol, Able, Phoenician, J Window, Taqueria1AZ, West Coast Pest, Urban Desert Pest, Plumber of Phoenix). The Gate 2 drafts contain time-sensitive observation lines ("I just saw your Yelp review from Tuesday") that are now stale enough to need a freshness pass before send — flagging this as decision-required for the owner today.
+- Yesterday's run (Apr-25, Saturday) was skipped — launchd attempted at 09:00 but gh-cli auth blocked the push (see `ops/logs/launchd-stdout.log`). Apr-26 run also showed a network resolution failure for github.com at 16:52 (see `all-hands-2026-04-26.log`). Today's manual catch-up run is now executing during the morning window.
+- Dispatched Stevie → logo & wordmark mini-kit (the brand-asset gap that will block first-client kickoff). Dispatched Matt → domain & DNS setup playbook (the launch-day gap for first-time-website Phoenix clients, which is 90% of our pipeline). Dispatched Emily → discovery in fresh verticals (8 new leads across mobile RV, window tint, holiday lighting, dance studio; 3 High queued as Gate 1). No new outreach drafts — no Gate 1 approvals have landed since Apr-19. Dispatched Raul → testimonial & review collection kit (no client today has 6+ usable testimonials at kickoff; this is the gap that makes day-one trust signals work).
+- Sunday — no weekly review scheduled. Emily's weekly pipeline review fires tomorrow (Monday Apr-27); will surface aging-by-vertical close forecasts then.
+
+**Stevie (Design):**
+- No active client engagements. Published `clients/_template/design/logo-mini-kit.md` — the rule we needed to stop logo work from blocking handoff: if client can't produce a usable SVG/1500px+ logo within 24 hours of kickoff, we ship a typeface-based wordmark mini-kit (3 SVG variants + favicon + apple-touch + GBP avatar + OG card). 80%+ of our Gate 2 pipeline is Yelp-only Phoenix small biz with no real logo, and "send your logo" is a 3-day stall every time.
+- Locked the type stack to 4 trade vibes (trustworthy / rugged / friendly / premium), all on Google Fonts so no license drag. Hard rules on what we never ship: AI-generated logos, clip-art trade icons, gradient wordmarks, baked-in taglines, skewed type. Explicit "we don't redesign your truck" boundary so the conversation stays productive at kickoff.
+- Handoff hook added to every future `handoff.md` Asset Inventory: brand mini-kit must be green before Matt starts dev. Pairs with `photography-and-imagery-guide.md` to make the imagery + brand-mark gates a single check.
+- Template design stack is now: design-system + wireframe-kit + mobile-first + trust-signals + photography + logo-mini-kit. Genuinely complete for first-client onboarding.
+
+**Matt (Dev):**
+- No active client builds. Published `clients/_template/dev/domain-and-dns-setup.md` — full decision tree for the three real cases in our pipeline (no domain at all → register fresh on Cloudflare in client's name; existing domain we can log into → DNS-only handoff with mandatory email-records snapshot; existing domain locked behind forgotten access → 5-day recovery window then pivot to new domain rather than block launch).
+- Locks in non-negotiable rules: registrar always in client's email account (never agency's), Rylan only takes Read + DNS Edit roles (never Super Admin or billing), email DNS snapshotted before any nameserver switch (the #1 cause of launch-day disasters), no GoDaddy for new registrations, no HSTS until week 2 post-launch so rollback stays cheap.
+- Includes `dig` snippets for capturing MX/SPF/DKIM/DMARC pre-switch, rollback procedure with archived prior nameservers, and a 20-30 minute time budget so future Matt knows when DNS work has gone off the rails.
+- Dev template stack now end-to-end complete: Astro starter → Tailwind components → SEO pack → analytics → deploy → DNS → pre-launch checklist. Zero scaffolding gaps for first client.
+
+**Emily (Growth):**
+- **Lead discovery: 8 new leads** across 4 fresh verticals not yet represented in the pipeline: mobile RV repair, window tinting, holiday lighting, dance studio.
+  - **3 High queued as Gate 1:** Take It Eazy Mobile RV Service & Repair (Phoenix), Markos Tint (Phoenix), Honey Do Christmas Lights (Phoenix).
+  - **5 Medium:** Phoenix RV Mobile Tech, Sunrise Mobile RV, Valley Christmas Lights, Bricks Studio, Conservatory of Dance.
+- **No new outreach drafts** — no Gate 1 approvals have landed since Apr-19. The 10 Apr-19 drafts are now 7 days old. Recommend the owner approves with a one-line freshness instruction ("send today, replace any 'this week' references with 'recently'") rather than re-drafting from scratch — the personalization is still good, only the time markers are stale.
+- SEO: no active clients. Pre-drafted a "holiday lighting Phoenix" October–December keyword cluster (the seasonal pull is huge in our valley because non-snowy December = visible-from-the-street decor matters more than elsewhere). Will deploy to Honey Do or Valley Christmas Lights the moment one signs.
+- **Pipeline aging note for tomorrow's weekly review:** 16 leads have been in "Contacted / Gate 2" status without owner-side movement for >5 days. Tomorrow's review will forecast which are still warm vs. which need a re-touch sequence vs. mark-stale.
+
+**Raul (Content):**
+- No active client copy. Published `assets/testimonial-collection-kit.md` — the missing piece in our trust-signal chain. Audit script for harvesting existing reviews (GBP, Facebook, Nextdoor, Thumbtack — and explicitly NOT Yelp, since Yelp's TOS forbids displaying their review text on the client's own site, even with attribution; we use Yelp star badges only and ask happy Yelp reviewers to repost on Google).
+- Three copy-paste scripts the client owns (post-job text, permission-to-quote-existing-praise, re-engage-old-customer email) with documented conversion rates so we can set expectations. Display format is locked: 25–60 word quote, first-name + last-initial + neighborhood, star count only when from a real public source, dated reviews, "via Google" or "direct" source badge, no stock-photo faces ever.
+- Per-industry voice guidance for what to feature vs. skip in each of our 10+ pipeline verticals. Anti-patterns explicit: no buying reviews, no discounts-for-reviews, no 5-star filtering, no paraphrasing customer words, no fake old reviews dated current. Care-plan hook: monthly review-velocity check is what makes the $125/mo retainer real, not a make-work line item.
+- Reusable copy library: voice + home + services + about + FAQ + agency about/pricing + testimonial-collection. Page-level + program-level copy is now complete.
+
+**Blockers:**
+- **Critical and aging:** 10 Gate 2 outreach drafts now 7 days old. Personalization is good but freshness lines are stale. Three options for owner: (a) approve with a one-line "send today, soften the time markers" note, (b) ask Emily to do a 30-min freshness pass and re-queue tomorrow, (c) abandon the Apr-19 batch and start fresh. Strongly recommend (a) — the lift to refresh is small and the per-lead research still holds.
+- **6 Gate 1 items pending** (3 from Apr-19 = 7 days old, 3 from Apr-24 = 2 days old). Lower urgency than Gate 2 but still gating Emily's outreach pipeline.
+- **Automation reliability:** Apr-25 run failed (gh-cli auth), Apr-26 also recorded a github.com DNS resolution failure at 16:52. Today's run is the manual catch-up. Pattern: launchd-driven runs are fragile when a network or auth condition lands during the 09:00 window. Worth investigating ahead of the next outage — if the daily push fails silently, the owner doesn't know there's a queue building up. Consider Kyle's earlier suggestion: louder failure signal in the daily email when push doesn't land.
+- **Still no active clients.** Template/system stack is launch-complete by every measure we've tracked. The full pipeline unlocks the moment the first Gate 2 batch hits an inbox and produces a reply.
+
+---
+
 ## 2026-04-24 — Friday
 
 **Kyle (PM):**

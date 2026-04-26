@@ -78,3 +78,11 @@ Stages: New → Contacted → Qualified → Proposal → Active → Won / Lost /
 | Pikasso Barber Shop | Phoenix | Barber | Yelp-focused, minimal web presence | Medium | New | — | — | Emily | 2026-04-24 | Hot towel shaves + massage included |
 | Clean Cut Barber Shop | Phoenix | Barber | Yelp-focused, small independent | Medium | New | — | — | Emily | 2026-04-24 | Scalp massage + hot towel cut included |
 | Classic BarberShop | Phoenix | Barber | Yelp-focused, independent | Medium | New | — | — | Emily | 2026-04-24 | Small independent barber, back massage option |
+| Take It Eazy Mobile RV Service & Repair | Phoenix | RV Repair (Mobile) | Yelp-only, no dedicated website | High | New | 1 | pending | Emily | 2026-04-26 | Small family biz, Phoenix 85027, (714) 269-8609, A/C + plumbing + electrical |
+| Markos Tint | Phoenix | Window Tinting | Yelp-only, walk-ins, no dedicated website | High | New | 1 | pending | Emily | 2026-04-26 | 10650 W Indian School Rd 85037, (602) 614-5919, 29 photos / 23 reviews |
+| Honey Do Christmas Lights | Phoenix | Holiday Lighting | Yelp-only, solo operator (David), no website found | High | New | 1 | pending | Emily | 2026-04-26 | Top-rated installer, "extremely efficient and trustworthy" review pattern |
+| Phoenix RV Mobile Tech | Phoenix | RV Repair (Mobile) | Yelp-only, no dedicated website | Medium | New | — | — | Emily | 2026-04-26 | 13214 S 39th St 85044, (480) 216-7862, mobile-only |
+| Sunrise Mobile RV | Phoenix | RV Repair (Mobile) | Yelp-only, no dedicated website | Medium | New | — | — | Emily | 2026-04-26 | 85043, (602) 412-6913, "repair not replace" pitch, customer education focus |
+| Valley Christmas Lights | Phoenix | Holiday Lighting | Yelp-only, no dedicated website surfaced | Medium | New | — | — | Emily | 2026-04-26 | Phoenix 85008, (602) 862-8612, on-time + affordable per reviews |
+| Bricks Studio | Phoenix | Dance Studio | Yelp-listed, web presence unclear | Medium | New | — | — | Emily | 2026-04-26 | 4550 E Indian School Rd, kids' classes ages 2+, small studio |
+| Conservatory of Dance | Phoenix | Dance Studio | Yelp-listed, owners Bill & Leah Hotaling since 2006 | Medium | New | — | — | Emily | 2026-04-26 | 13637 N Tatum Blvd Ste 8 85032, (602) 996-7530, 50+ yrs in PHX |

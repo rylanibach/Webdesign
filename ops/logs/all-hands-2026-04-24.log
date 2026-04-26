@@ -4,3 +4,25 @@ From https://github.com/rylanibach/Webdesign
 From https://github.com/rylanibach/Webdesign
  * branch            main       -> FETCH_HEAD
 Already up to date.
+## Daily all-hands summary — 2026-04-24 (Friday)
+
+**Files changed:** 17 (3 new in `assets/agency/` and `clients/_template/design/` and `ops/playbooks/` and `ops/scripts/`, 4 modified ops files, 5 new all-hands logs backfilled, 1 modified log).
+
+**New leads added:** 6 (3 High, 3 Medium) in 3 new verticals: massage, moving, barber.
+
+**Gate 1 items queued:** 3 (Pamper Yourself Massage, Sterling Interstate Moving, AZ Barber & Salon).
+
+**Gate 2 outreach drafts ready for review:** 0 new today; **10 from Apr-19 still sitting pending** — that's the critical blocker.
+
+**Blockers needing owner attention before tomorrow's run:**
+1. **10 Gate 2 outreach drafts now 5 days old** (Japez, Garcia's, Handyman Protocol, Able, Phoenician, J Window, Taqueria1AZ, West Coast Pest, Urban Desert Pest, Plumber of Phoenix). Freshness lines ("I saw your Yelp review from Tuesday") are decaying.
+2. **6 Gate 1 items pending** (3 from Apr-19 + 3 from today).
+3. **Automation blackout Apr 20–23** due to Claude usage cap — Kyle flagged hardening the daily email signal as next week's focus so a multi-day outage isn't invisible until Friday.
+4. **Zero replies** on original 5 sent emails (2+ weeks old) — may indicate the approved-as-is Gate 2 batch needs a freshness edit before Monday send, not just approval.
+
+**Commit pushed:** `442d237` on `origin/main`.
+
+=== Daily All-Hands run finished at Fri Apr 24 09:11:06 MST 2026 (exit 0) ===
+
+=== Email delivery ===
+{"id":"27417240-3cf3-49ee-bede-6d4dbf30de9c"}
